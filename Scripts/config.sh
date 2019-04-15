@@ -15,3 +15,15 @@ echo ""
 echo "[CONFIG] Enable developer mode for admin users"
 sudo /usr/sbin/DevToolsSecurity -enable
 echo ""
+
+echo "[CONFIG] Set specific path for screenshots"
+defaults write com.apple.screencapture location ~/Desktop/screenshots/
+echo ""
+
+echo "[CONFIG] Enable AAC codec as default"
+defaults write bluetoothaudiod "Enable AAC codec" -bool true
+echo ""
+
+echo "[CONFIG] Show build times in Xcode"
+defaults write com.apple.dt.Xcode ShowBuildOperationDuration -bool YES
+echo ""
