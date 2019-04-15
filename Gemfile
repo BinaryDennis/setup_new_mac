@@ -9,9 +9,10 @@ gem 'cocoapods'
 gem 'cocoapods-deintegrate'
 
 # Web
-gem 'jekyll'
+#gem 'jekyll'
 
 # Fastlane
 gem 'fastlane'
 gem 'gym'
 gem 'match'
+gem 'synx'
