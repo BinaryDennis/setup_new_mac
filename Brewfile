@@ -12,6 +12,7 @@ brew "cloc"
 brew "python"
 brew "git-flow-avh"
 brew "ffmpeg"
+brew "ngrok"
 
 # Terminal
 brew "zsh"
@@ -39,3 +40,7 @@ cask "slack"
 cask "sourcetree"
 cask "spectacle"
 cask "visual-studio-code"
+cask "iterm2"
+cask "1password"
+cask "charles"
+
