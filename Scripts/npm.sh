@@ -5,10 +5,6 @@
 
 # EXECUTION
 
-echo "[NPM] Installing Ionic"
-sudo npm install -g cordova ionic
-echo ""
-
 echo "[NPM] Installing Gulp"
 sudo npm install -g gulp-cli
 echo ""
