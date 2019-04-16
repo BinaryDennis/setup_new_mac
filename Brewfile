@@ -27,7 +27,7 @@ cask "android-studio"
 brew "carthage"
 brew "swiftgen"
 brew "swiftlint"
-brew "pusher"
+cask "pusher"
 
 
 # Apps
