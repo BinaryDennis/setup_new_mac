@@ -12,6 +12,7 @@ brew "cloc"
 brew "python"
 brew "git-flow-avh"
 brew "ffmpeg"
+brew "tig"
 
 # Terminal
 brew "zsh"
