@@ -1,0 +1,9 @@
+Host           Github
+Hostname       github.com
+User           BinaryDennis
+IdentityFile    ~/.ssh/github_rsa
+#IdentityFile /Users/charmington/.ssh/BinaryDennis_GitHub
+IdentitiesOnly yes
+UseKeychain    yes
+AddKeysToAgent yes
+PreferredAuthentications publickey
