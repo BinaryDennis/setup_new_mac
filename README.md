@@ -49,6 +49,12 @@ of a `package.json` file.
 - [Record iOS Simulator](https://github.com/alexp2ad/record-ios-simulator)
 
 
-## Author
+## SSH info
+```
+ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
+ssh-add -K ~/.ssh/id_rsaeval "$(ssh-agent -s)"
 
-Daniel Saidi, daniel.saidi@gmail.com
+sh -vT git@github.com
+ssh-add -l
+ssh-add ~/.ssh/<private key>
+```
