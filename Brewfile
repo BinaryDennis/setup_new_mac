@@ -13,6 +13,8 @@ brew "python"
 brew "git-flow-avh"
 brew "ffmpeg"
 brew "tig"
+brew "node"
+
 
 # Terminal
 brew "zsh"
@@ -23,6 +25,7 @@ brew "zsh-autosuggestions"
 # Android
 cask "java"
 cask "android-studio"
+
 
 # iOS/Swift
 brew "carthage"
