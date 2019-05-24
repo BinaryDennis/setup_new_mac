@@ -33,6 +33,7 @@ process_option() {
       source scripts/git.sh
       source scripts/npm.sh
       source scripts/ssh.sh
+      source scripts/misc.sh
       break;;
     'brew')
       brew bundle
@@ -58,6 +59,9 @@ process_option() {
       break;;
     'system')
       source scripts/system.sh
+      break;;
+    'misc')
+      source scripts/misc.sh
       break;;
       
     'q')
@@ -89,6 +93,7 @@ while true; do
     echo "      npm:  Install npm packages from scripts/npm.sh"
     echo "      ssh:  Create & copy SSH key"
     echo "   system:  Install system software"
+    echo "     misc:  Install misc stuff"
     echo ""
     echo "        q:  Quit/Exit."
     echo ""
