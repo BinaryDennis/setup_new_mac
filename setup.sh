@@ -7,6 +7,18 @@
 # ./setup.sh [OPTION]
 
 
+# VALIDATE PREREQUISITE
+
+validate_prerequisites() {
+  if [ ! -d "/Applications/Xcode.app" ]; then
+    echo ""
+    echo "--- Install Xcode first! ---"
+    echo ""
+    exit 1
+  fi
+}
+
+
 # OPTIONS
 
 process_option() {
@@ -15,6 +27,7 @@ process_option() {
       source scripts/config.sh
       source scripts/system.sh
       brew bundle
+      sudo gem install bundle
       bundle install
       source scripts/dev.sh
       source scripts/git.sh
@@ -31,6 +44,7 @@ process_option() {
       source scripts/dev.sh
       break;;
     'gem')
+      sudo gem install bundle
       bundle install
       break;;
     'git')
@@ -55,6 +69,8 @@ process_option() {
 
 
 # MENU
+validate_prerequisites
+
 while true; do
   if [[ $# == 0 ]]; then
     echo ""
