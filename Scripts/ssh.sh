@@ -23,5 +23,13 @@ echo ""
 echo "[SSH] Copying ssh key to pasteboard"
 pbcopy < ~/.ssh/id_rsa.pub
 
+
+echo "[SSH] Setting config"
+mv ~/.ssh/config ~/.ssh/config.backup 2>/dev/null
+cp Configs/config ~/.ssh/.
+echo ""
+
 echo "[SSH] Done"
 echo ""
+
+

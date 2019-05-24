@@ -1,11 +1,14 @@
 #!/bin/bash
 
 # DESCRIPTION
-# Git aliases
+# Git 
 
-echo "Add the following to [alias] in ~/.gitconfig:"
+echo "[CONFIG] Setting .gitignore_global"
+mv ~/.gitignore_global ~/.gitignore_global.backup 2>/dev/null
+cp Configs/.gitignore_global ~/.
 echo ""
-echo "tag-latest = tag -l --sort=-v:refname # reverse"
-echo "tagrev = tag-latest"
-open ~/.gitconfig
+
+echo "[CONFIG] Setting .gitconfig"
+mv ~/.gitconfig ~/.gitconfig.backup 2>/dev/null
+cp Configs/.gitconfig ~/.
 echo ""
