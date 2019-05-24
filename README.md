@@ -39,6 +39,16 @@ are global, I manage these installations from `scripts/npm.sh` instead
 of a `package.json` file.
 
 
+## Other things to install
+- [Arial Screensaver](https://github.com/JohnCoates/Aerial)
+- [Swiff](https://github.com/agens-no/swiff)
+- xScope
+- Zeplin
+- Paintcode
+- VLC
+- [Record iOS Simulator](https://github.com/alexp2ad/record-ios-simulator)
+
+
 ## Author
 
 Daniel Saidi, daniel.saidi@gmail.com
