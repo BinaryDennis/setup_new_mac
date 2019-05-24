@@ -1,0 +1,44 @@
+[core]
+	excludesfile = /Users/dencha/.gitignore_global
+	editor = /usr/bin/vim
+[difftool "sourcetree"]
+	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
+	path =
+[mergetool "sourcetree"]
+	cmd = /Applications/Sourcetree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
+	trustExitCode = true
+[log]
+	decorate = true
+[user]
+	name = Dennis Charmington
+	email = dennis.charmington@avanza.se
+[commit]
+	template = /Users/dencha/.stCommitMsg
+[color]
+	ui = true
+[push]
+	default = tracking
+[alias]
+
+	logs =  log --pretty=format:'%C(cyan)%h %C(yellow)%ad %C(bold red)%d %C(reset)%s %C(dim green)[%cn]' --abbrev-commit --decorate --date=relative
+	logg =  log --pretty=format:'%C(cyan)%h %C(yellow)%ad %C(bold red)%d %C(reset)%s %C(green)[%cn]' --abbrev-commit --decorate --date=relative --graph #--simplify-by-decoration
+	logn =  log --pretty=format:'%C(cyan)%h %C(yellow)%ad %C(bold red)%d %C(reset)%s %C(green)[%cn]' --abbrev-commit --decorate --date=relative --numstat
+	logh =  log --pretty=format:'%C(cyan)%h %C(yellow)%ad %C(bold red)%d %C(reset)%s %C(green)[%cn]' --abbrev-commit --decorate --date=relative --graph --full-history --all
+	logdev = log --pretty=format:'%C(cyan)%h %C(yellow)%ad %C(bold red)%d %C(reset)%s %C(dim green)[%cn]' --abbrev-commit --decorate --date=relative --no-merges develop..
+
+
+	branch-touched = for-each-ref --sort=-committerdate --format="%(committerdate:relative)%09%(refname:short)" refs/heads
+
+	st = status
+	ci = commit
+	co = checkout
+	br = branch
+	diff = diff --word-diff
+	dc = diff --cached
+
+	sl = stash list
+	sa = stash apply
+	ss = stash save
+	
+	fetchall = fetch --all --tags --prune
+
