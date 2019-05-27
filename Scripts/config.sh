@@ -17,6 +17,7 @@ sudo /usr/sbin/DevToolsSecurity -enable
 echo ""
 
 echo "[CONFIG] Set specific path for screenshots"
+mkdir -p ~/Desktop/screenshots/
 defaults write com.apple.screencapture location ~/Desktop/screenshots/
 echo ""
 

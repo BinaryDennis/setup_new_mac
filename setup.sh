@@ -12,7 +12,7 @@
 validate_prerequisites() {
   if [ ! -d "/Applications/Xcode.app" ]; then
     echo ""
-    echo "--- Install Xcode first! ---"
+    echo "--- Install Xcode & Command line tools first! ---"
     echo ""
     exit 1
   fi
@@ -60,8 +60,8 @@ process_option() {
     'system')
       source scripts/system.sh
       break;;
-    'misc')
-      source scripts/misc.sh
+    'zsh')
+      source scripts/zsh.sh
       break;;
       
     'q')
@@ -93,7 +93,7 @@ while true; do
     echo "      npm:  Install npm packages from scripts/npm.sh"
     echo "      ssh:  Create & copy SSH key"
     echo "   system:  Install system software"
-    echo "     misc:  Install misc stuff"
+    echo "     zsh:  Install zsh and add-ons"
     echo ""
     echo "        q:  Quit/Exit."
     echo ""
