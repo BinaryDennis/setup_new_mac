@@ -33,7 +33,8 @@ process_option() {
       source scripts/git.sh
       source scripts/npm.sh
       source scripts/ssh.sh
-      source scripts/misc.sh
+      source scripts/zsh.sh
+      source scripts/hostname.sh
       break;;
     'brew')
       brew bundle
@@ -62,6 +63,9 @@ process_option() {
       break;;
     'zsh')
       source scripts/zsh.sh
+      break;;
+    'hostname')
+      source scripts/hostname.sh
       break;;
       
     'q')
@@ -93,7 +97,8 @@ while true; do
     echo "      npm:  Install npm packages from scripts/npm.sh"
     echo "      ssh:  Create & copy SSH key"
     echo "   system:  Install system software"
-    echo "     zsh:  Install zsh and add-ons"
+    echo "      zsh:  Install zsh and add-ons"
+    echo " hostname:  Set host name and computer name"
     echo ""
     echo "        q:  Quit/Exit."
     echo ""

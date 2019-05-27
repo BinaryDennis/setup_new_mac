@@ -3,6 +3,8 @@
 # DESCRIPTION
 # Installs OS X system software.
 
+# EXECUTION
+
 if ! command -v brew > /dev/null; then
     echo "[SYSTEM] Install Homebrew"
     ruby -e "$(curl --location --fail --silent --show-error https://raw.githubusercontent.com/Homebrew/install/master/install)"

@@ -3,6 +3,8 @@
 # DESCRIPTION
 # Configures OS X.
 
+# EXECUTION
+
 echo "[CONFIG] Finder, Show hidden files"
 defaults write com.apple.finder AppleShowAllFiles -bool true
 killall Finder -9

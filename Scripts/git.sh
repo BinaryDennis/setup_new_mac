@@ -1,7 +1,9 @@
 #!/bin/bash
 
 # DESCRIPTION
-# Git 
+# Git config
+
+# EXECUTION
 
 echo "[CONFIG] Setting .gitignore_global"
 mv ~/.gitignore_global ~/.gitignore_global.backup 2>/dev/null
