@@ -31,6 +31,9 @@
 	diff = diff --word-diff
 	dc = diff --cached
 
+	cod = checkout develop
+	com = checkout master
+	
 	sl = stash list
 	sa = stash apply
 	ss = stash save
