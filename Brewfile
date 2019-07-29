@@ -22,6 +22,11 @@ brew "z"
 brew "zsh-autosuggestions"
 
 
+# Go-lang
+brew "go"
+brew "go-swagger"
+
+
 # Android
 cask "java"
 cask "android-studio"
