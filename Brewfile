@@ -1,5 +1,8 @@
 cask_args appdir: "/Applications"
 
+# Taps
+tap "go-swagger/go-swagger"
+
 # Tools
 #brew "git bash-completion"
 brew "mas"
@@ -14,6 +17,8 @@ brew "git-flow-avh"
 brew "ffmpeg"
 brew "tig"
 brew "node"
+brew "youtube-dl"
+brew "imagemagick"
 
 
 # Terminal
