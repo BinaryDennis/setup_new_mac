@@ -68,8 +68,7 @@ source /usr/local/share/zsh-autosuggestions/zsh-autosuggestions.zsh
 # User configuration
 
 ## Misc
-export PATH="/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin"
-export PATH="$PATH:/usr/local/sbin/"
+export PATH="$PATH:/usr/local/sbin/:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin"
 
 ## Add Visual Studio Code (code)
 export PATH="$PATH:/Applications/Visual\ Studio\ Code.app/Contents/Resources/app/bin"
@@ -83,9 +82,8 @@ export PATH="$PATH:/Applications/Visual\ Studio\ Code.app/Contents/Resources/app
 #export PATH="$PATH:$FLUTTER_ROOT"
 
 ## Go-lang (installed with Brew)
-#export GOPATH="/usr/local/opt/go"
-#export GOBIN="$GOPATH/bin"
-#export PATH="$PATH:$GOBIN"
+export GOPATH="/usr/local/opt/go/libexec/bin"
+export PATH="$GOPATH:$PATH"
 #export PATH="$PATH:/Applications/protoc/bin/"
 #export PATH="$PATH:/Applications/go_appengine"
 
