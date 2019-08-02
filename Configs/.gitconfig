@@ -16,11 +16,11 @@
 	default = tracking
 
 [alias]
-	logs =  log --pretty=format:'%C(cyan)%h %C(yellow)%ad %C(bold red)%d %C(reset)%s %C(dim green)[%cn]' --abbrev-commit --decorate --date=relative
-	logg =  log --pretty=format:'%C(cyan)%h %C(yellow)%ad %C(bold red)%d %C(reset)%s %C(green)[%cn]' --abbrev-commit --decorate --date=relative --graph #--simplify-by-decoration
-	logn =  log --pretty=format:'%C(cyan)%h %C(yellow)%ad %C(bold red)%d %C(reset)%s %C(green)[%cn]' --abbrev-commit --decorate --date=relative --numstat
-	logh =  log --pretty=format:'%C(cyan)%h %C(yellow)%ad %C(bold red)%d %C(reset)%s %C(green)[%cn]' --abbrev-commit --decorate --date=relative --graph --full-history --all
-	logdev = log --pretty=format:'%C(cyan)%h %C(yellow)%ad %C(bold red)%d %C(reset)%s %C(dim green)[%cn]' --abbrev-commit --decorate --date=relative --no-merges develop..
+	logs =  log --pretty=format:'%C(cyan)%h %C(yellow)%ad %C(bold red)%d %C(reset)%s %C(dim green)[%an]' --abbrev-commit --decorate --date=relative
+	logg =  log --pretty=format:'%C(cyan)%h %C(yellow)%ad %C(bold red)%d %C(reset)%s %C(green)[%an]' --abbrev-commit --decorate --date=relative --graph #--simplify-by-decoration
+	logn =  log --pretty=format:'%C(cyan)%h %C(yellow)%ad %C(bold red)%d %C(reset)%s %C(green)[%an]' --abbrev-commit --decorate --date=relative --numstat
+	logh =  log --pretty=format:'%C(cyan)%h %C(yellow)%ad %C(bold red)%d %C(reset)%s %C(green)[%an]' --abbrev-commit --decorate --date=relative --graph --full-history --all
+	logdev = log --pretty=format:'%C(cyan)%h %C(yellow)%ad %C(bold red)%d %C(reset)%s %C(dim green)[%an]' --abbrev-commit --decorate --date=relative --no-merges develop..
 
 	branch-touched = for-each-ref --sort=-committerdate --format="%(committerdate:relative)%09%(refname:short)" refs/heads
 
