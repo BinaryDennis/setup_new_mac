@@ -52,9 +52,19 @@ of a `package.json` file.
 ## SSH info
 ```
 ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
-ssh-add -K ~/.ssh/id_rsaeval "$(ssh-agent -s)"
-
 sh -vT git@github.com
 ssh-add -l
-ssh-add ~/.ssh/<private key>
+ssh-add -AK ~/.ssh/<private key>
+```
+
+### SSH config
+~/.ssh/config
+```
+Host           Bitbucket
+Hostname       bitbucket.org
+IdentityFile    ~/.ssh/id_rsa_bookbeat
+IdentitiesOnly yes
+UseKeychain    yes
+AddKeysToAgent yes
+PreferredAuthentications publickey
 ```
