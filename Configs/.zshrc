@@ -130,6 +130,8 @@ alias rgrep="grep -L -r --include \"*.storyboard\" --exclude \"*.txt\" \"Utility
 alias resetsims="xcrun simctl erase all"
 alias hashvalue="openssl sha -sha256"
 alias git-clean="git gc; git fetch --prune; git branch -vv | grep ': gone' | awk '{print $1}' | xargs git branch -D"
+alias ddd="~/Scripts/clearDerivedData.sh"
+
 
 function powerline_precmd() {
     PS1="$(powerline-shell --shell zsh $?)"
