@@ -87,6 +87,8 @@ export PATH="$GOPATH:$PATH"
 #export PATH="$PATH:/Applications/protoc/bin/"
 #export PATH="$PATH:/Applications/go_appengine"
 
+export PATH="$PATH:~/Scripts"
+
 # export MANPATH="/usr/local/man:$MANPATH"
 
 # You may need to manually set your language environment
