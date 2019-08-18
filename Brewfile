@@ -57,5 +57,5 @@ cask "iterm2"
 cask "1password"
 cask "charles"
 cask "ngrok"
-
+brew "opera"
 
