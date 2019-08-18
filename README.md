@@ -54,7 +54,7 @@ of a `package.json` file.
 ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
 sh -vT git@github.com
 ssh-add -l
-ssh-add -AK ~/.ssh/<private key>
+ssh-add -K ~/.ssh/<private key>
 ```
 
 ### SSH config
