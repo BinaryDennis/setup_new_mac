@@ -22,6 +22,8 @@
 	logh =  log --pretty=format:'%C(cyan)%h %C(yellow)%ad %C(bold red)%d %C(reset)%s %C(green)[%an]' --abbrev-commit --decorate --date=relative --graph --full-history --all
 	logdev = log --pretty=format:'%C(cyan)%h %C(yellow)%ad %C(bold red)%d %C(reset)%s %C(dim green)[%an]' --abbrev-commit --decorate --date=relative --no-merges develop..
 
+	showdev = show --no-merges develop..
+	
 	branch-touched = for-each-ref --sort=-committerdate --format="%(committerdate:relative)%09%(refname:short)" refs/heads
 
 	st = status
