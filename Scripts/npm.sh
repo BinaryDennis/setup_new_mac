@@ -15,5 +15,5 @@ echo ""
 
 
 echo "[NPM] Installing Node Version Manager"
-sudo npm install -g npm
+sudo npm install -g nvm
 echo ""
