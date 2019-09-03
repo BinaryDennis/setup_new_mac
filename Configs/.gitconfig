@@ -32,6 +32,7 @@
 	br = branch
 	diff = diff --word-diff
 	dc = diff --cached
+	ds = diff --staged
 
 	cod = checkout develop
 	com = checkout master
