@@ -17,3 +17,8 @@ echo ""
 echo "[NPM] Installing Node Version Manager"
 sudo npm install -g nvm
 echo ""
+
+
+echo "[NPM] Installing Firebase tools"
+sudo npm install -g firebase-tools
+echo ""
