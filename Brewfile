@@ -59,5 +59,5 @@ cask "iterm2"
 cask "1password"
 cask "charles"
 cask "ngrok"
-cast "brave-browser"
+cask "brave-browser"
 
