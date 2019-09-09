@@ -28,9 +28,12 @@ brew "zsh-autosuggestions"
 
 
 # Go-lang
-brew "go"
-brew "go-swagger"
+#brew "go"
+#brew "go-swagger"
 
+# Flutter 
+# FIXME
+# FIXME
 
 # Android
 cask "java"
@@ -46,7 +49,6 @@ cask "pusher"
 
 # Apps
 cask "alfred"
-cask "google-chrome"
 cask "postman"
 cask "sketch"
 cask "slack"
@@ -57,5 +59,5 @@ cask "iterm2"
 cask "1password"
 cask "charles"
 cask "ngrok"
-brew "opera"
+cast "brave-browser"
 
