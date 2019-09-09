@@ -13,7 +13,7 @@
 	ui = true
 
 [push]
-	default = tracking
+	default = current
 
 [alias]
 	logs =  log --pretty=format:'%C(cyan)%h %C(yellow)%ad %C(bold red)%d %C(reset)%s %C(dim green)[%an]' --abbrev-commit --decorate --date=relative
