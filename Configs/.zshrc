@@ -136,6 +136,7 @@ alias resetsims="xcrun simctl erase all"
 alias hashvalue="openssl sha -sha256"
 alias git-clean="git gc; git fetch --prune; git branch -vv | grep ': gone' | awk '{print $1}' | xargs git branch -D"
 alias ddd="~/Scripts/clearDerivedData.sh"
+alias ccb="git rev-parse --abbrev-ref HEAD | pbcopy"
 
 
 function powerline_precmd() {
