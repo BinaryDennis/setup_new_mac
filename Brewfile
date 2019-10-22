@@ -1,12 +1,9 @@
 cask_args appdir: "/Applications"
 
-# Taps
-tap "go-swagger/go-swagger"
-
 # Tools
-#brew "git bash-completion"
 brew "mas"
 brew "httpie"
+brew "curl"
 brew "mc"
 brew "wget"
 brew "vim"
@@ -19,6 +16,7 @@ brew "tig"
 brew "node"
 brew "youtube-dl"
 brew "imagemagick"
+brew "unzip"
 
 
 # Terminal
@@ -26,10 +24,6 @@ brew "zsh"
 brew "z"
 brew "zsh-autosuggestions"
 
-
-# Go-lang
-#brew "go"
-#brew "go-swagger"
 
 # Flutter 
 # FIXME
@@ -60,4 +54,5 @@ cask "1password"
 cask "charles"
 cask "ngrok"
 cask "brave-browser"
+cask "skitch"
 
