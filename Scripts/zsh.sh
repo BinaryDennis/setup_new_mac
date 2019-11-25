@@ -14,7 +14,7 @@ git clone https://github.com/powerline/fonts.git --depth=1 && cd fonts && ./inst
 echo ""
 
 echo "[ZSH] Installing powerline shell"
-pip3 install powerline-shell
+sudo -H pip3 install powerline-shell 
 echo ""
 
 echo "[ZSH] Setting .zshrc"
