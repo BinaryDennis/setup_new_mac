@@ -5,13 +5,15 @@
 
 # EXECUTION
 
-read -p "[SSH] Create new SSH key (yes/no): " response
-if test "$response" = "yes"; then
+read -p "[SSH] Create new SSH key (yes/no) [yes]: " response
+if test "$response" != "no"; then
 	echo ""
 	read -p "Enter your e-mail: " ssh_email
 	echo ""
     echo "[SSH] Creating ssh key"
     ssh-keygen -t rsa -b 4096 -C $ssh_email
+else
+	exit
 fi
 echo ""
 
@@ -31,5 +33,3 @@ echo ""
 
 echo "[SSH] Done"
 echo ""
-
-
