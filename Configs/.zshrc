@@ -82,8 +82,8 @@ export PATH="$PATH:/Applications/Visual\ Studio\ Code.app/Contents/Resources/app
 #export PATH="$PATH:$FLUTTER_ROOT"
 
 ## Go-lang (installed with Brew)
-export GOPATH="/usr/local/opt/go/libexec/bin"
-export PATH="$GOPATH:$PATH"
+#export GOPATH="/usr/local/opt/go/libexec/bin"
+#export PATH="$GOPATH:$PATH"
 #export PATH="$PATH:/Applications/protoc/bin/"
 #export PATH="$PATH:/Applications/go_appengine"
 
