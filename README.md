@@ -48,6 +48,8 @@ of a `package.json` file.
 - Paintcode
 - VLC
 - [Record iOS Simulator](https://github.com/alexp2ad/record-ios-simulator)
+- [SF Symbols](https://developer.apple.com/design/downloads/SF-Symbols.dmg)
+- [Roboto Fonts](https://fonts.google.com/specimen/Roboto)
 
 
 ## SSH info
