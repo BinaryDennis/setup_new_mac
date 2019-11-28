@@ -44,6 +44,7 @@ of a `package.json` file.
 - [Swiff](https://github.com/agens-no/swiff)
 - xScope
 - Zeplin
+- Network Link Conditioner
 - Paintcode
 - VLC
 - [Record iOS Simulator](https://github.com/alexp2ad/record-ios-simulator)
