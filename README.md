@@ -44,7 +44,7 @@ of a `package.json` file.
 - [Swiff](https://github.com/agens-no/swiff)
 - xScope
 - Zeplin
-- Network Link Conditioner
+- Network Link Conditioner from [Additional Tools for Xcode](https://download.developer.apple.com/Developer_Tools/Additional_Tools_for_Xcode_11_GM_Seed/Additional_Tools_for_Xcode_11_GM_Seed.dmg)
 - Paintcode
 - VLC
 - [Record iOS Simulator](https://github.com/alexp2ad/record-ios-simulator)
