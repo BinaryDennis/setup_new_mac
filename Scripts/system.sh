@@ -33,3 +33,15 @@ echo ""
 echo "[SYSTEM] Install Node"
 brew install node
 echo ""
+
+echo "[SYSTEM] Copy utility scripts to ~/Scripts"
+path_src=UtilityScripts
+path_dst=~/Scripts
+mkdir -p $path_dst
+for file in $path_src/*; do
+	cp -fr $file $path_dst/$(basename $file)
+    chmod 755 $path_dst/$(basename $file)
+done
+echo ""
+
+
