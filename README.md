@@ -43,7 +43,7 @@ of a `package.json` file.
 - [Arial Screensaver](https://github.com/JohnCoates/Aerial)
 - [Swiff](https://github.com/agens-no/swiff)
 - xScope
-- Zeplin
+- [Zeplin](https://zpl.io/download-mac)
 - Network Link Conditioner from [Additional Tools for Xcode](https://download.developer.apple.com/Developer_Tools/Additional_Tools_for_Xcode_11_GM_Seed/Additional_Tools_for_Xcode_11_GM_Seed.dmg)
 - Paintcode
 - VLC
