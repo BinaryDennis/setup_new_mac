@@ -46,11 +46,14 @@ of a `package.json` file.
 - [xScope](https://xscopeapp.com)
 - [Zeplin](https://zpl.io/download-mac)
 - Network Link Conditioner from [Additional Tools for Xcode](https://download.developer.apple.com/Developer_Tools/Additional_Tools_for_Xcode_11_GM_Seed/Additional_Tools_for_Xcode_11_GM_Seed.dmg)
-- Paintcode
 - [VLC](https://www.videolan.org/vlc/)
 - [Record iOS Simulator](https://github.com/alexp2ad/record-ios-simulator)
 - [SF Symbols](https://developer.apple.com/design/downloads/SF-Symbols.dmg)
 - [Roboto Fonts](https://fonts.google.com/specimen/Roboto)
+- Better safari blocker
+- Paintcode
+- Luminar
+- Boom 3D
 
 
 ## SSH info
