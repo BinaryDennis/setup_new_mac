@@ -54,6 +54,7 @@ of a `package.json` file.
 - Paintcode
 - Luminar
 - Boom 3D
+- NVM (`curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.35.1/install.sh | bash`)
 
 
 ## SSH info
