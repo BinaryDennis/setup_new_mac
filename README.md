@@ -40,7 +40,7 @@ of a `package.json` file.
 
 
 ## Other things to install
-- [Noise](https://github.com/insidegui/NoiseBuddy)
+- [NoiseBuddy](https://github.com/insidegui/NoiseBuddy)
 - [Arial Screensaver](https://github.com/JohnCoates/Aerial)
 - [Expressions](https://www.apptorium.com/expressions)
 - [Swiff](https://github.com/agens-no/swiff)
