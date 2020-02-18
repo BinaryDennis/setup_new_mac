@@ -30,3 +30,8 @@ echo ""
 echo "[CONFIG] Show build times in Xcode"
 defaults write com.apple.dt.Xcode ShowBuildOperationDuration -bool YES
 echo ""
+
+echo "[CONFIG] Enable AAC 320 Codec for Bluetooth headphones"
+sudo defaults write bluetoothaudiod "Enable AAC codec" -bool true
+sudo defaults write bluetoothaudiod "AAC Bitrate" 320
+echo ""
