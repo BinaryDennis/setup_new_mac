@@ -50,9 +50,10 @@ of a `package.json` file.
 - [VLC](https://www.videolan.org/vlc/)
 - [SF Symbols](https://developer.apple.com/design/downloads/SF-Symbols.dmg)
 - [Roboto Fonts](https://fonts.google.com/specimen/Roboto)
-- Better Safari blocker
+- Better Safari Blocker
 - Paintcode
 - Luminar
+- [Audio HiJack](https://rogueamoeba.com/audiohijack/)
 - Boom 3D
 - NVM (`curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.35.1/install.sh | bash`)
 
