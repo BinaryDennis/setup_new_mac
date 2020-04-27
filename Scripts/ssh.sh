@@ -19,7 +19,7 @@ echo ""
 
 echo "[SSH] Adding ssh key to ssh-agent"
 eval "$(ssh-agent -s)"
-ssh-add ~/.ssh/id_rsa
+ssh-add -K ~/.ssh/id_rsa
 echo ""
 
 echo "[SSH] Copying ssh key to pasteboard"
