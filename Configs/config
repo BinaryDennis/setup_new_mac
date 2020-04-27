@@ -1,8 +1,16 @@
-Host           Github
-Hostname       github.com
-User           BinaryDennis
-IdentityFile    ~/.ssh/id_rsa
-IdentitiesOnly yes
-UseKeychain    yes
-AddKeysToAgent yes
-PreferredAuthentications publickey
+Host GitHub
+	HostName github.com
+	UseKeychain yes
+	AddKeysToAgent yes
+	User <username>
+	PreferredAuthentications publickey
+	IdentityFile ~/.ssh/<filename>
+	
+Host Bitbucket
+	HostName bitbucket.org
+	UseKeychain yes
+	AddKeysToAgent yes
+	User <username>
+	PreferredAuthentications publickey
+	IdentityFile ~/.ssh/<filename>
+
