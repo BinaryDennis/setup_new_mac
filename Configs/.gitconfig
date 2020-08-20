@@ -33,6 +33,7 @@
 	diff = diff --word-diff
 	dc = diff --cached
 	ds = diff --staged
+	pr = remote prune origin
 
 	cod = checkout develop
 	com = checkout master
