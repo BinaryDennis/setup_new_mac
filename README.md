@@ -59,12 +59,25 @@ of a `package.json` file.
 
 
 ## SSH info
+Create ssh keys WITH passphrase otherwise they wont be automatically be added to ssh-agent after reboot!
 ```
 ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
-sh -vT git@github.com
-ssh-add -l
-ssh-add -K ~/.ssh/<private key>
 ```
+
+If you already have generated ssh-keys without passphrase, you can add passphrase to them by:
+```
+ssh-keygen -p -f ~/.ssh/<private-key>
+```
+
+Test a specific key: `sh -vT git@github.com`
+
+See list of all added keys in the ssh-agent:  `ssh-add -l`
+
+Add a specific key to the ssh-agent: `ssh-add -K ~/.ssh/<private key>`
+
+Add all keys to the ssh-agent: `ssh-add -A`
+
+
 
 ### SSH config
 ~/.ssh/config
