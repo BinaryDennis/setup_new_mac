@@ -139,6 +139,10 @@ alias ddd="~/Scripts/deleteDerivedData.sh"
 alias ccb="git rev-parse --abbrev-ref HEAD | pbcopy"
 
 
+# SSH stuff
+ssh-add -A
+
+
 function powerline_precmd() {
     PS1="$(powerline-shell --shell zsh $?)"
 }
