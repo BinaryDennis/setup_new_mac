@@ -44,4 +44,14 @@
 	sd = stash drop
 	
 	fetchall = fetch --all --tags --prune
-	
+
+[commit]
+	template = /Users/charmington/.stCommitMsg
+[merge]
+	tool = vscode
+[mergetool "vscode"]
+	cmd = code -n --wait $MERGED
+[diff]
+	tool = vscode
+[difftool "vscode"]
+	cmd = code -n --wait --diff $LOCAL $REMOTE
