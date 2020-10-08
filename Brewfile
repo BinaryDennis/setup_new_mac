@@ -17,6 +17,7 @@ brew "node"
 brew "youtube-dl"
 brew "imagemagick"
 brew "unzip"
+brew "osx-cpu-temp"
 
 
 # Terminal
