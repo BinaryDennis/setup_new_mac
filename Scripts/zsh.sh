@@ -13,8 +13,8 @@ echo "[ZSH] Installing powerline fonts"
 git clone https://github.com/powerline/fonts.git --depth=1 && cd fonts && ./install.sh && cd .. && rm -fr fonts
 echo ""
 
-echo "[ZSH] Installing powerline shell"
-sudo -H pip3 install powerline-shell 
+echo "[ZSH] Installing theme powerlevel9k"
+git clone https://github.com/bhilburn/powerlevel9k.git ~/.oh-my-zsh/custom/themes/powerlevel9k
 echo ""
 
 echo "[ZSH] Setting .zshrc"
