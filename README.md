@@ -104,5 +104,6 @@ PreferredAuthentications publickey
 10. iTerm2 → Preferences → Profiles → Text → Cursor : ✓ Vertical Bar  → Blinking cursor : ✓ ON
 11. iTerm → Preferences → Profiles → Keys → Load Preset… → Natural Text Editing 
 12. Update your `~/.zshrc` file accordingly to the one in this repo
+13. Update `Visual Code` settings -> *Font Family* : **Meslo LG M for Powerline**
 
 
