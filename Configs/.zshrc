@@ -165,12 +165,12 @@ POWERLEVEL9K_VCS_MODIFIED_BACKGROUND='red'
 # Add a new line after the global prompt 
 POWERLEVEL9K_PROMPT_ADD_NEWLINE=true
 
-
 # Colorise the top Tabs of Iterm2 with the same color as background
-# Just change the 18/26/33 wich are the rgb values 
-echo -e "\033]6;1;bg;red;brightness;18\a"
-echo -e "\033]6;1;bg;green;brightness;26\a"
-echo -e "\033]6;1;bg;blue;brightness;33\a"
+# Just change the 100/50/100 wich are the rgb values 
+echo -e "\033]6;1;bg;red;brightness;100\a"
+echo -e "\033]6;1;bg;green;brightness;50\a"
+echo -e "\033]6;1;bg;blue;brightness;100\a"
 
 
+# activate zsh syntax highlighting
 source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
