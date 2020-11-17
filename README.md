@@ -90,3 +90,19 @@ UseKeychain    yes
 AddKeysToAgent yes
 PreferredAuthentications publickey
 ```
+
+## Pimp your shell
+1. ```brew cask install iterm2```
+2. Download color scheme for iTerm: http://iterm2colorschemes.com
+3. iTerm → Preferences → Profiles → Colors → Color presets → Import. Then again, Color presets → you-color-scheme-name
+4. Install a patched font, eg Meslo (https://github.com/powerline/fonts/blob/master/Meslo%20Slashed/Meslo%20LG%20M%20Regular%20for%20Powerline.ttf)
+5. iTerm2 → Preferences → Profiles → Text → Change Font
+6. ```brew install zsh```
+7. ```sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"```
+8. ```git clone https://github.com/bhilburn/powerlevel9k.git ~/.oh-my-zsh/custom/themes/powerlevel9k```
+9. ```brew install zsh-completions zsh-autosuggestions zsh-syntax-highlighting```
+10. iTerm2 → Preferences → Profiles → Text → Cursor : ✓ Vertical Bar  → Blinking cursor : ✓ ON
+11. iTerm → Preferences → Profiles → Keys → Load Preset… → Natural Text Editing 
+12. Update your `~/.zshrc` file accordingly to the one in this repo
+
+
