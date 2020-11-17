@@ -25,6 +25,7 @@ brew "zsh"
 brew "z"
 brew "zsh-autosuggestions"
 brew "zsh-completions"
+brew "zsh-syntax-highlighting"
 
 
 # Flutter 
