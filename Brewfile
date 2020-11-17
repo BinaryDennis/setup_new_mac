@@ -24,6 +24,7 @@ brew "osx-cpu-temp"
 brew "zsh"
 brew "z"
 brew "zsh-autosuggestions"
+brew "zsh-completions"
 
 
 # Flutter 
