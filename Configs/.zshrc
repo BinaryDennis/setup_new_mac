@@ -59,6 +59,7 @@ plugins=(
   bundler
   osx
   zsh-autosuggestions
+  zsh-syntax-highlighting
   jsontools
   node 
   sudo
@@ -68,11 +69,6 @@ plugins=(
 
 source ${ZSH}/oh-my-zsh.sh
 
-# use Fish
-#source /usr/local/share/zsh-autosuggestions/zsh-autosuggestions.zsh
-
-# use Z
-#. /usr/local/etc/profile.d/z.sh
 
 # User configuration
 
@@ -141,9 +137,6 @@ alias ddd="~/Scripts/deleteDerivedData.sh"
 alias ccb="git rev-parse --abbrev-ref HEAD | pbcopy"
 alias temp="while :; do osx-cpu-temp; sleep 1; done"
 
-
-# Reload the plugin to highlight the commands each time Iterm2 starts 
-source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
 
 ### VISUAL CUSTOMISATION ### 
