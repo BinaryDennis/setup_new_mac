@@ -132,11 +132,10 @@ alias xcode-clean="rm -fr ~/Library/Developer/Xcode/DerivedData/"
 alias rgrep="grep -L -r --include \"*.storyboard\" --exclude \"*.txt\" \"Utility\" ."
 alias resetsims="xcrun simctl erase all"
 alias hashvalue="openssl sha -sha256"
-alias git-clean="git gc; git fetch --prune; git branch -vv | grep ': gone' | awk '{print $1}' | xargs git branch -D"
+alias git-clean="git gc; git fetch -p && for branch in $(git for-each-ref --format '%(refname) %(upstream:track)' refs/heads | awk '$2 == "[gone]" {sub("refs/heads/", "", $1); print $1}'); do git branch -D $branch; done"
+alias git-cb="git rev-parse --abbrev-ref HEAD | pbcopy"
 alias ddd="~/Scripts/deleteDerivedData.sh"
-alias ccb="git rev-parse --abbrev-ref HEAD | pbcopy"
-alias temp="while :; do osx-cpu-temp; sleep 1; done"
-
+alias cputemp="while :; do osx-cpu-temp; sleep 1; done"
 
 
 ### VISUAL CUSTOMISATION ### 
