@@ -140,10 +140,11 @@ alias cputemp="while :; do osx-cpu-temp; sleep 1; done"
 
 ### VISUAL CUSTOMISATION ### 
 
+
 # Elements options of left prompt (remove the @username context)
-POWERLEVEL9K_LEFT_PROMPT_ELEMENTS=(dir rbenv vcs)
+POWERLEVEL9K_LEFT_PROMPT_ELEMENTS=(dir vcs)
 # Elements options of right prompt
-POWERLEVEL9K_RIGHT_PROMPT_ELEMENTS=(status root_indicator background_jobs history time)
+POWERLEVEL9K_RIGHT_PROMPT_ELEMENTS=(status root_indicator background_jobs history time battery)
 
 # Add a second prompt line for the command
 POWERLEVEL9K_PROMPT_ON_NEWLINE=true
@@ -168,8 +169,7 @@ POWERLEVEL9K_PROMPT_ADD_NEWLINE=true
 # Just change the 100/50/100 wich are the rgb values 
 echo -e "\033]6;1;bg;red;brightness;100\a"
 echo -e "\033]6;1;bg;green;brightness;50\a"
-echo -e "\033]6;1;bg;blue;brightness;100\a"
+echo -e "\033]6;1;bg;blue;brightness;150\a"
 
 
-# activate zsh syntax highlighting
 source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
