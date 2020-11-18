@@ -53,18 +53,16 @@ ZSH_THEME="powerlevel9k/powerlevel9k"
 # Add wisely, as too many plugins slow down shell startup.
 plugins=(
   git
-  github
+  #github
   gitignore
   git-extras
   bundler
   osx
   zsh-autosuggestions
   zsh-syntax-highlighting
-  jsontools
-  node 
-  sudo
-  thor
-  docker
+  #jsontools
+  #node 
+  #sudo
 )
 
 source ${ZSH}/oh-my-zsh.sh
@@ -140,7 +138,6 @@ alias cputemp="while :; do osx-cpu-temp; sleep 1; done"
 
 ### VISUAL CUSTOMISATION ### 
 
-
 # Elements options of left prompt (remove the @username context)
 POWERLEVEL9K_LEFT_PROMPT_ELEMENTS=(dir vcs)
 # Elements options of right prompt
@@ -157,7 +154,7 @@ local user_symbol="$"
 if [[ $(print -P "%#") =~ "#" ]]; then
     user_symbol = "#"
 fi
-POWERLEVEL9K_MULTILINE_LAST_PROMPT_PREFIX="%{%B%F{black}%K{yellow}%} $user_symbol%{%b%f%k%F{yellow}%} %{%f%}"
+POWERLEVEL9K_MULTILINE_LAST_PROMPT_PREFIX="%{%B%F{black}%K{054}%} $user_symbol%{%b%f%k%F{054}%} %{%f%}"
 
 # Change the git status to red when something isn't committed and pushed
 POWERLEVEL9K_VCS_MODIFIED_BACKGROUND='red'
