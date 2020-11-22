@@ -82,8 +82,8 @@ export PATH="$PATH:/Applications/Visual\ Studio\ Code.app/Contents/Resources/app
 #export PATH="$PATH:$ANDROID_HOME"
 
 ## Flutter
-#export FLUTTER_ROOT="/Applications/flutter/bin"
-#export PATH="$PATH:$FLUTTER_ROOT"
+export FLUTTER_ROOT="/Applications/flutter/bin"
+export PATH="$PATH:$FLUTTER_ROOT"
 
 ## NVM
 export NVM_DIR="$HOME/.nvm"
