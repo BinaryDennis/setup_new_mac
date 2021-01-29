@@ -59,4 +59,5 @@ cask "skitch"
 cask "amethyst"
 cask "spectacle"
 cask "proxyman"
+cask "macdown"
 
