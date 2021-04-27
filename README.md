@@ -59,37 +59,34 @@ of a `package.json` file.
 
 
 ## SSH info
-Create ssh keys WITH passphrase otherwise they wont be automatically be added to ssh-agent after reboot!
-```
-ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
-```
 
-If you already have generated ssh-keys without passphrase, you can add passphrase to them by:
+
+### ssh-keygen
 ```
-ssh-keygen -p -f ~/.ssh/<private-key>
+ssh-keygen -t ed25519 -C "your_email@example.com"
+eval "$(ssh-agent -s)"
+touch ~/.ssh/config
+ssh-add -K ~/.ssh/id_ed25519. 
 ```
+Note: If you chose not to add a passphrase to your key, run the command without the -K option.
+
+### ~/.ssh/config
+```
+Host *
+  AddKeysToAgent yes
+  UseKeychain yes
+  IdentityFile ~/.ssh/id_ed25519
+```
+Note: If you chose not to add a passphrase to your key, you should omit the UseKeychain line.
+
+### ssh misc
 
 Test a specific key: `sh -vT git@github.com`
 
 See list of all added keys in the ssh-agent:  `ssh-add -l`
 
-Add a specific key to the ssh-agent: `ssh-add -K ~/.ssh/<private key>`
-
 Add all keys to the ssh-agent: `ssh-add -A`
 
-
-
-### SSH config
-~/.ssh/config
-```
-Host           Bitbucket
-Hostname       bitbucket.org
-IdentityFile    ~/.ssh/id_rsa_bookbeat
-IdentitiesOnly yes
-UseKeychain    yes
-AddKeysToAgent yes
-PreferredAuthentications publickey
-```
 
 ## Pimp your shell
 1. ```brew cask install iterm2```
