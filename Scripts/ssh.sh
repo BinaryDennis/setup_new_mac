@@ -11,7 +11,7 @@ if test "$response" != "no"; then
 	read -p "Enter your e-mail: " ssh_email
 	echo ""
     echo "[SSH] Creating ssh key"
-    ssh-keygen -t rsa -b 4096 -C $ssh_email
+    ssh-keygen -t ed25519 -C $ssh_email
 else
 	exit
 fi
@@ -19,7 +19,7 @@ echo ""
 
 echo "[SSH] Adding ssh key to ssh-agent"
 eval "$(ssh-agent -s)"
-ssh-add -K ~/.ssh/id_rsa
+ssh-add ~/.ssh/id_rsa
 echo ""
 
 echo "[SSH] Copying ssh key to pasteboard"
