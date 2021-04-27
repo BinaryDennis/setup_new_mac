@@ -1,16 +1,4 @@
-Host GitHub
-	HostName github.com
-	UseKeychain yes
-	AddKeysToAgent yes
-	User BinaryDennis
-	PreferredAuthentications publickey
-	IdentityFile ~/.ssh/<filename>
+Host *
+  AddKeysToAgent yes
+  IdentityFile ~/.ssh/id_ed25519.pub
 	
-Host Bitbucket
-	HostName bitbucket.org
-	UseKeychain yes
-	AddKeysToAgent yes
-	User mrcharmington
-	PreferredAuthentications publickey
-	IdentityFile ~/.ssh/<filename>
-
