@@ -107,7 +107,7 @@ fi
 
 # ssh
 # export SSH_KEY_PATH="~/.ssh/dsa_id"
-ssh-add -A
+#ssh-add -A
 
 # Ruby stuff
 if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi
