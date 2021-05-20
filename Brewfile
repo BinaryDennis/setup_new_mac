@@ -19,6 +19,7 @@ brew "youtube-dl"
 brew "imagemagick"
 brew "unzip"
 brew "osx-cpu-temp"
+brew "jq"
 
 
 # Terminal
