@@ -34,8 +34,7 @@
 	diff = diff --word-diff
 	dc = diff --cached
 	ds = diff --staged
-	pr = remote prune origin
-
+	
 	cod = checkout develop
 	com = checkout master
 	
@@ -44,7 +43,9 @@
 	ss = stash save
 	sd = stash drop
 	
-	fetchall = fetch --all --tags --prune
+	fetchall = fetch --all --tags
+	prune = remote prune origin
+	prunemerged = !git branch -q --merged origin/develop | grep -v master | grep -v develop | grep -v testflight | xargs branch -d
 
 [commit]
 	template = /Users/charmington/.stCommitMsg
