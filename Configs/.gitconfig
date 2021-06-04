@@ -45,7 +45,7 @@
 	
 	fetchall = fetch --all --tags
 	prune = remote prune origin
-	prunemerged = !git branch -q --merged origin/develop | grep -v master | grep -v develop | grep -v testflight | xargs branch -d
+	prunemerged = !git branch -q --merged origin/develop | grep -v master | grep -v develop | grep -v testflight | xargs git branch -d
 
 [commit]
 	template = /Users/charmington/.stCommitMsg
