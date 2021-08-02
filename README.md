@@ -56,7 +56,10 @@ of a `package.json` file.
 - [Audio HiJack](https://rogueamoeba.com/audiohijack/)
 - Boom 3D
 - NVM (`curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.35.1/install.sh | bash`)
+- [Moom](https://manytricks.com/moom/)
 
+## Xcode extensions
+- [Comment Wrapper](https://apps.apple.com/se/app/comment-wrapper-for-xcode/id1377998565?l=en&mt=12)
 
 ## SSH info
 
