@@ -134,6 +134,7 @@ alias git-clean="git gc; git fetch -p && for branch in $(git for-each-ref --form
 alias git-cb="git rev-parse --abbrev-ref HEAD | pbcopy"
 alias ddd="~/Scripts/deleteDerivedData.sh"
 alias cputemp="while :; do osx-cpu-temp; sleep 1; done"
+alias md="open -a MacDown"
 
 
 ### VISUAL CUSTOMISATION ### 
