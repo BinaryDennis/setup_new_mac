@@ -44,9 +44,9 @@
 	sd = stash drop
 	
 	fetchall = fetch --all --tags
-	fetchprune = fetch --prune
+	prunelocal = fetch --prune
 	prune = remote update origin --prune
-	prunemerged = !git branch -q --merged origin/develop | grep -v master | grep -v develop | grep -v testflight | xargs git branch -d
+	pruneorigin = !git branch -q --merged origin/develop | grep -v master | grep -v develop | grep -v testflight | xargs git branch -d
 
 [commit]
 	template = /Users/charmington/.stCommitMsg
