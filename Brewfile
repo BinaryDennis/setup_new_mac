@@ -20,6 +20,7 @@ brew "imagemagick"
 brew "unzip"
 brew "osx-cpu-temp"
 brew "jq"
+brew "git-lfs"
 
 
 # Terminal
