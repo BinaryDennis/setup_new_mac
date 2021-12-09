@@ -135,6 +135,7 @@ alias git-cb="git rev-parse --abbrev-ref HEAD | pbcopy"
 alias ddd="~/Scripts/deleteDerivedData.sh"
 alias cputemp="while :; do osx-cpu-temp; sleep 1; done"
 alias md="open -a MacDown"
+alias gg="gitui"
 
 
 ### VISUAL CUSTOMISATION ### 
