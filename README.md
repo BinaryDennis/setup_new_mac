@@ -1,4 +1,4 @@
-# OS X Setup Script
+# Setup a new macOS
 
 This repository contains scripts that can be used to setup a brand new
 MacBook within minutes. It applies OSX settings, installs applications
@@ -58,6 +58,7 @@ of a `package.json` file.
 - NVM (`curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.35.1/install.sh | bash`)
 - [Moom](https://manytricks.com/moom/)
 - [Fira Code font](https://github.com/tonsky/FiraCode)
+- [z.sh](https://github.com/rupa/z)
 
 ## Xcode extensions
 - [Comment Wrapper](https://apps.apple.com/se/app/comment-wrapper-for-xcode/id1377998565?l=en&mt=12)
