@@ -107,5 +107,6 @@ Add all keys to the ssh-agent: `ssh-add -A`
 11. iTerm → Preferences → Profiles → Keys → Load Preset… → Natural Text Editing 
 12. Update your `~/.zshrc` file accordingly to the one in this repo
 13. Update `Visual Code` settings -> *Font Family* : **Meslo LG M for Powerline**
+14. Change keyboard shortcuts in Xcode/VSCode to use cmd-k for "Open Quickly.." dialog
 
 
