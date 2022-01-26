@@ -44,8 +44,8 @@
 	sd = stash drop
 	
 	fetchall = fetch --all --tags
+	pruneremote = remote update origin --prune
 	prunelocal = fetch --prune
-	prune = remote update origin --prune
 	pruneorigin = !git branch -q --merged origin/develop | grep -v master | grep -v develop | grep -v testflight | xargs git branch -d
 
 [commit]
