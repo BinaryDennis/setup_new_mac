@@ -6,7 +6,13 @@ When u get a new MacBook - follow these steps to save time installing all things
 
 1. Install Xcode via AppStore
 
-2. Run `./setup.sh` 
+2. Run setup.sh from this repo
+
+```
+git clone git@github.com:BinaryDennis/setup_new_mac.git
+cd setup_new_mac 
+./setup.sh
+```
 
 3. Install the following manually
 
