@@ -48,7 +48,7 @@ of a `package.json` file.
 - [Zeplin](https://zpl.io/download-mac)
 - Network Link Conditioner from [Additional Tools for Xcode](https://developer.apple.com/download/all/?q=additional)
 - [VLC](https://www.videolan.org/vlc/)
-- [SF Symbols](https://developer.apple.com/design/downloads/SF-Symbols.dmg)
+- [SF Symbols](https://developer.apple.com/sf-symbols/)
 - [Roboto Fonts](https://fonts.google.com/specimen/Roboto)
 - Better Safari Blocker
 - Paintcode
