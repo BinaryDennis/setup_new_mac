@@ -20,6 +20,7 @@ brew "unzip"
 brew "osx-cpu-temp"
 brew "jq"
 brew "git-lfs"
+brew "java"
 
 
 # Terminal
@@ -36,7 +37,6 @@ brew "gitui"
 # FIXME
 
 # Android
-cask "java"
 cask "android-studio"
 
 
