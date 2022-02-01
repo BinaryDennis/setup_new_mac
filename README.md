@@ -32,8 +32,6 @@ cd setup_new_mac
 ### Nice to have
 - [Moom](https://manytricks.com/moom/)
 - [Lockdown](https://lockdownhq.com)
-- [Arial Screensaver](https://github.com/JohnCoates/Aerial)
-- [VLC](https://www.videolan.org/vlc/)
 - [Audio HiJack](https://rogueamoeba.com/audiohijack/)
 - Boom 3D
 - Luminar
