@@ -76,12 +76,11 @@ of a `package.json` file.
 
 ### ssh-keygen
 ```
-ssh-keygen -t ed25519 -C "your_email@example.com"
+ssh-keygen -t ed25519 -C "your_email@example.com" #Do not add any passphrase
 eval "$(ssh-agent -s)"
 touch ~/.ssh/config
-ssh-add -K ~/.ssh/id_ed25519. 
+ssh-add -K ~/.ssh/id_ed25519
 ```
-Note: If you chose not to add a passphrase to your key, run the command without the -K option.
 
 ### ~/.ssh/config
 ```
