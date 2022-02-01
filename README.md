@@ -25,8 +25,6 @@ and npm packages and can even configure your SSH keys.
 - [xScope](https://xscopeapp.com)
 - [Zeplin](https://zpl.io/download-mac)
 - Network Link Conditioner from [Additional Tools for Xcode](https://developer.apple.com/download/all/?q=additional)
-- [z.sh](https://github.com/rupa/z)
-- NVM (`curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.35.1/install.sh | bash`)
 - Slack
 - Paintcode
 
