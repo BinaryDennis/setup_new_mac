@@ -59,8 +59,6 @@ cask "1password"
 cask "ngrok"
 cask "brave-browser"
 cask "skitch"
-cask "amethyst"
-cask "spectacle"
 cask "proxyman"
 cask "macdown"
 
