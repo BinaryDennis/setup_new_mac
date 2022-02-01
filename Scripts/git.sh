@@ -14,3 +14,7 @@ echo "[CONFIG] Setting .gitconfig"
 mv ~/.gitconfig ~/.gitconfig.backup 2>/dev/null
 cp Configs/.gitconfig ~/.
 echo ""
+
+echo "[CONFIG] Installing Git LFS"
+git lfs install
+echo ""
