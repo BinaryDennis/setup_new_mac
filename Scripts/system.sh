@@ -7,7 +7,7 @@
 
 if ! command -v brew > /dev/null; then
     echo "[SYSTEM] Install Homebrew"
-    ruby -e "$(curl --location --fail --silent --show-error https://raw.githubusercontent.com/Homebrew/install/master/install)"
+    /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 else
     echo "[SYSTEM] Update Homebrew"
     brew update
