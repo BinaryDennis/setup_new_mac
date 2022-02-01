@@ -62,3 +62,6 @@ cask "skitch"
 cask "proxyman"
 cask "macdown"
 
+# Misc
+cask "aerial"
+
