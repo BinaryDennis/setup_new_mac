@@ -93,7 +93,7 @@ Host *
 
 ### ssh misc
 
-Test a specific key: `sh -vT git@github.com`
+Test a specific key: `ssh -vT git@github.com`
 
 See list of all added keys in the ssh-agent:  `ssh-add -l`
 
