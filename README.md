@@ -27,7 +27,6 @@ cd setup_new_mac
 - [xScope](https://xscopeapp.com)
 - [Zeplin](https://zpl.io/download-mac)
 - Network Link Conditioner from [Additional Tools for Xcode](https://developer.apple.com/download/all/?q=additional)
-- Slack
 - Paintcode
 
 ### Nice to have
