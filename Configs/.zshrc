@@ -67,8 +67,8 @@ plugins=(
 
 source ${ZSH}/oh-my-zsh.sh
 
-#download z.sh from https://github.com/rupa/z
-#source path/to/z.sh
+source ~/z/z.sh
+
 
 # User configuration
 
