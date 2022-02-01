@@ -57,7 +57,7 @@ plugins=(
   gitignore
   git-extras
   bundler
-  osx
+  macos
   zsh-autosuggestions
   zsh-syntax-highlighting
   #jsontools
