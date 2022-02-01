@@ -17,7 +17,7 @@ fi
 echo ""
 
 echo "[SYSTEM] Install Homebrew Cask"
-brew tap caskroom/cask
+brew tap homebrew/cask
 echo ""
 
 echo "[SYSTEM] Install Brew Bundle"
