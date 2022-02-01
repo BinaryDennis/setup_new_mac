@@ -1,9 +1,6 @@
 # Setup a new macOS
 
-This repository contains scripts that can be used to setup a brand new
-MacBook within minutes. It applies OSX settings, installs applications
-and npm packages and can even configure your SSH keys.
-
+When u get a new MacBook - follow these steps to save time installing all things you need
 
 ## How to use it
 
@@ -21,7 +18,6 @@ and npm packages and can even configure your SSH keys.
 
 ### Developer related stufff
 - [Expressions](https://www.apptorium.com/expressions)
-- [Swiff](https://github.com/agens-no/swiff)
 - [xScope](https://xscopeapp.com)
 - [Zeplin](https://zpl.io/download-mac)
 - Network Link Conditioner from [Additional Tools for Xcode](https://developer.apple.com/download/all/?q=additional)
@@ -36,8 +32,11 @@ and npm packages and can even configure your SSH keys.
 - [Audio HiJack](https://rogueamoeba.com/audiohijack/)
 - Boom 3D
 - Luminar
-- Grammarly Safari extension
-- DuckDuckGo Safari extension
+
+### Safari Extensions
+- Grammarly
+- DuckDuckGo
+- 1Password
 
 
 ## SSH
