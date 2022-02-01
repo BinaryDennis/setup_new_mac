@@ -54,18 +54,21 @@ of a `package.json` file.
 - [xScope](https://xscopeapp.com)
 - [Zeplin](https://zpl.io/download-mac)
 - Network Link Conditioner from [Additional Tools for Xcode](https://developer.apple.com/download/all/?q=additional)
-- Paintcode
 - [z.sh](https://github.com/rupa/z)
 - NVM (`curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.35.1/install.sh | bash`)
+- Slack
+- Paintcode
 
 ### Nice to have
 - [Moom](https://manytricks.com/moom/)
 - [Lockdown](https://lockdownhq.com)
 - [Arial Screensaver](https://github.com/JohnCoates/Aerial)
-- Luminar
+- [VLC](https://www.videolan.org/vlc/)
 - [Audio HiJack](https://rogueamoeba.com/audiohijack/)
 - Boom 3D
-- [VLC](https://www.videolan.org/vlc/)
+- Luminar
+- Grammarly Safari extension
+- DuckDuckGo Safari extension
 
 
 ## SSH info
