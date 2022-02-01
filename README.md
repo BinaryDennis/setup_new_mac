@@ -49,7 +49,8 @@ of a `package.json` file.
 - Network Link Conditioner from [Additional Tools for Xcode](https://developer.apple.com/download/all/?q=additional)
 - [VLC](https://www.videolan.org/vlc/)
 - [SF Symbols](https://developer.apple.com/sf-symbols/)
-- [Roboto Fonts](https://fonts.google.com/specimen/Roboto)
+- [Roboto Font](https://fonts.google.com/specimen/Roboto)
+- [Roboto Slab Font](https://fonts.google.com/specimen/Roboto+Slab?query=roboto+slab)
 - Better Safari Blocker
 - Paintcode
 - Luminar
