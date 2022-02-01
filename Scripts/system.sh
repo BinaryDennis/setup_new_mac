@@ -36,6 +36,11 @@ echo "[SYSTEM] Install Node"
 brew install node
 echo ""
 
+echo "[SYSTEM] Install z"
+git clone git@github.com:rupa/z.git ~/z 
+echo ""
+
+
 echo "[SYSTEM] Copy utility scripts to ~/Scripts"
 path_src=UtilityScripts
 path_dst=~/Scripts
