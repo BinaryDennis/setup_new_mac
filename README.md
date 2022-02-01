@@ -71,18 +71,20 @@ of a `package.json` file.
 - DuckDuckGo Safari extension
 
 
-## SSH info
+## SSH
 
 
 ### ssh-keygen
 ```
 ssh-keygen -t ed25519 -C "your_email@example.com" #Do not add any passphrase
 eval "$(ssh-agent -s)"
-touch ~/.ssh/config
 ssh-add -K ~/.ssh/id_ed25519
 ```
 
-### ~/.ssh/config
+### ssh config
+
+Create the file `~/.ssh/config` and add the following to it:
+
 ```
 Host *
   AddKeysToAgent yes
@@ -97,7 +99,8 @@ See list of all added keys in the ssh-agent:  `ssh-add -l`
 
 Add all keys to the ssh-agent: `ssh-add -A`
 
-### Xcode SSH
+
+### Xcode ssh
 
 ```
 ~/Library/Preferences/com.apple.dt.Xcode.plist
