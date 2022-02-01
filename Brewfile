@@ -61,6 +61,7 @@ cask "brave-browser"
 cask "skitch"
 cask "proxyman"
 cask "macdown"
+cask "vlc"
 
 # Misc
 cask "aerial"
