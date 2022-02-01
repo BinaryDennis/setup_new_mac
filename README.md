@@ -39,30 +39,34 @@ are global, I manage these installations from `scripts/npm.sh` instead
 of a `package.json` file.
 
 
-## Other things to install
-- [Lockdown](https://lockdownhq.com)
-- [Arial Screensaver](https://github.com/JohnCoates/Aerial)
+## Other things to install manually
+
+### Fonts
+- [SF Symbols](https://developer.apple.com/sf-symbols/)
+- [Fira Code font](https://github.com/tonsky/FiraCode)
+- [Roboto Font](https://fonts.google.com/specimen/Roboto)
+- [Roboto Slab Font](https://fonts.google.com/specimen/Roboto+Slab?query=roboto+slab)
+
+### Developer related stufff
+- [Xcode extensions Comment Wrapper](https://apps.apple.com/se/app/comment-wrapper-for-xcode/id1377998565?l=en&mt=12)
 - [Expressions](https://www.apptorium.com/expressions)
 - [Swiff](https://github.com/agens-no/swiff)
 - [xScope](https://xscopeapp.com)
 - [Zeplin](https://zpl.io/download-mac)
 - Network Link Conditioner from [Additional Tools for Xcode](https://developer.apple.com/download/all/?q=additional)
-- [VLC](https://www.videolan.org/vlc/)
-- [SF Symbols](https://developer.apple.com/sf-symbols/)
-- [Roboto Font](https://fonts.google.com/specimen/Roboto)
-- [Roboto Slab Font](https://fonts.google.com/specimen/Roboto+Slab?query=roboto+slab)
-- Better Safari Blocker
 - Paintcode
+- [z.sh](https://github.com/rupa/z)
+- NVM (`curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.35.1/install.sh | bash`)
+
+### Nice to have
+- [Moom](https://manytricks.com/moom/)
+- [Lockdown](https://lockdownhq.com)
+- [Arial Screensaver](https://github.com/JohnCoates/Aerial)
 - Luminar
 - [Audio HiJack](https://rogueamoeba.com/audiohijack/)
 - Boom 3D
-- NVM (`curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.35.1/install.sh | bash`)
-- [Moom](https://manytricks.com/moom/)
-- [Fira Code font](https://github.com/tonsky/FiraCode)
-- [z.sh](https://github.com/rupa/z)
+- [VLC](https://www.videolan.org/vlc/)
 
-## Xcode extensions
-- [Comment Wrapper](https://apps.apple.com/se/app/comment-wrapper-for-xcode/id1377998565?l=en&mt=12)
 
 ## SSH info
 
