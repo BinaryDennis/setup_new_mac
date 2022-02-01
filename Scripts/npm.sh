@@ -22,3 +22,7 @@ echo ""
 echo "[NPM] Installing Firebase tools"
 sudo npm install -g firebase-tools
 echo ""
+
+echo "[NPM] Installing NVM"
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.35.1/install.sh | bash
+echo ""
