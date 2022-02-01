@@ -86,10 +86,8 @@ ssh-add -K ~/.ssh/id_ed25519
 ```
 Host *
   AddKeysToAgent yes
-  UseKeychain yes
   IdentityFile ~/.ssh/id_ed25519
 ```
-Note: If you chose not to add a passphrase to your key, you should omit the UseKeychain line.
 
 ### ssh misc
 
