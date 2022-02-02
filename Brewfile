@@ -21,7 +21,7 @@ brew "osx-cpu-temp"
 brew "jq"
 brew "git-lfs"
 brew "java"
-
+brew "cocoapods"
 
 # Terminal
 brew "zsh"
