@@ -76,7 +76,7 @@ Add all keys to the ssh-agent: `ssh-add -A`
 1. ```brew cask install iterm2```
 2. Download color scheme for iTerm: http://iterm2colorschemes.com
 3. iTerm → Preferences → Profiles → Colors → Color presets → Import. Then again, Color presets → you-color-scheme-name
-4. Install a patched font, eg Meslo (https://github.com/powerline/fonts/blob/master/Meslo%20Slashed/Meslo%20LG%20M%20Regular%20for%20Powerline.ttf)
+4. Install a patched font, eg [Meslo](https://github.com/powerline/fonts/blob/master/Meslo%20Slashed/Meslo%20LG%20M%20Regular%20for%20Powerline.ttf)
 5. iTerm2 → Preferences → Profiles → Text → Change Font
 6. ```brew install zsh```
 7. ```sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"```
