@@ -72,13 +72,17 @@ See list of all added keys in the ssh-agent:  `ssh-add -l`
 Add all keys to the ssh-agent: `ssh-add -A`
 
 
-
 ## Pimp your shell
-7. ```brew install zsh```
-8. ```sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"```
-9. ```git clone https://github.com/bhilburn/powerlevel9k.git ~/.oh-my-zsh/custom/themes/powerlevel9k```
-10. ```brew install zsh-completions zsh-autosuggestions zsh-syntax-highlighting```
-1. ```brew cask install iterm2```
+1. Install oh-my-zsh 
+```sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"```
+2. Install powerlevel9k 
+```git clone https://github.com/bhilburn/powerlevel9k.git ~/.oh-my-zsh/custom/themes/powerlevel9k```
+3. Install zsh plugins 
+```brew install zsh-completions zsh-autosuggestions zsh-syntax-highlighting```
+
+
+## Pimp your Terminal
+1. Install iterm2 ```brew cask install iterm2```
 2. Download color scheme for iTerm: http://iterm2colorschemes.com
 3. iTerm → Preferences → Profiles → Colors → Color presets → Import. Then again, Color presets → you-color-scheme-name
 4. Install a patched font, eg [Meslo](https://github.com/powerline/fonts/blob/master/Meslo%20Slashed/Meslo%20LG%20M%20Regular%20for%20Powerline.ttf)
