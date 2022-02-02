@@ -91,7 +91,13 @@ Add all keys to the ssh-agent: `ssh-add -A`
 11. iTerm2 → Preferences → Profiles → Text → Cursor : ✓ Vertical Bar  → Blinking cursor : ✓ ON
 12. iTerm → Preferences → Profiles → Keys → KeyMapping → Load Preset… → Natural Text Editing 
 13. Update your `~/.zshrc` file accordingly to the one in this repo
-14. Update `Visual Code` settings -> *Font Family* : **Meslo LG M for Powerline**
-15. Change keyboard shortcuts in Xcode/VSCode to use cmd-k for "Open Quickly.." dialog
+
+## Key mappings
+1. In `Visual Code`, Change keyboard shortcut for **"Goto file..."** from `cmd+P` to `cmd+K` (remove keybinding `cmd+K` for 'clear terminal')
+2. In `Xcode`, change keyboard shortcut for **"Open Quickly..."** from `cmd+P` to `cmd+K` (remove keybinding `cmd+K` for 'clear terminal')
+
+
+## Other stuff
+1. Update `Visual Code` settings -> *Font Family* : **Meslo LG M for Powerline**
 
 
