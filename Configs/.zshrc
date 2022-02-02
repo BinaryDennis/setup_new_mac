@@ -47,6 +47,13 @@ ZSH_THEME="powerlevel9k/powerlevel9k"
 # Would you like to use another custom folder than $ZSH/custom?
 # ZSH_CUSTOM=/path/to/new-custom-folder
 
+
+source ${ZSH}/oh-my-zsh.sh
+source ${HOMEBREW_PREFIX}/share/zsh-autosuggestions/zsh-autosuggestions.zsh
+source ${HOMEBREW_PREFIX}/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+source ~/z/z.sh
+
+
 # Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
@@ -57,18 +64,13 @@ plugins=(
   gitignore
   git-extras
   bundler
-  macos
+  macos 
   zsh-autosuggestions
   zsh-syntax-highlighting
   #jsontools
   #node 
   #sudo
 )
-
-source ${ZSH}/oh-my-zsh.sh
-
-source ~/z/z.sh
-
 
 # User configuration
 
@@ -172,8 +174,6 @@ echo -e "\033]6;1;bg;red;brightness;100\a"
 echo -e "\033]6;1;bg;green;brightness;50\a"
 echo -e "\033]6;1;bg;blue;brightness;150\a"
 
-
-source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
 # The next line updates PATH for the Google Cloud SDK.
 if [ -f '/Applications/google-cloud-sdk/path.zsh.inc' ]; then . '/Applications/google-cloud-sdk/path.zsh.inc'; fi
