@@ -99,5 +99,6 @@ Add all keys to the ssh-agent: `ssh-add -A`
 
 ## Other stuff
 1. Update `Visual Code` settings -> *Font Family* : **Meslo LG M for Powerline**
+2. Active Alfred's copy & paste history functionality
 
 
