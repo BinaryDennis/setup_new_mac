@@ -74,18 +74,18 @@ Add all keys to the ssh-agent: `ssh-add -A`
 
 
 ## Pimp your shell
+7. ```brew install zsh```
+8. ```sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"```
+9. ```git clone https://github.com/bhilburn/powerlevel9k.git ~/.oh-my-zsh/custom/themes/powerlevel9k```
+10. ```brew install zsh-completions zsh-autosuggestions zsh-syntax-highlighting```
 1. ```brew cask install iterm2```
 2. Download color scheme for iTerm: http://iterm2colorschemes.com
 3. iTerm → Preferences → Profiles → Colors → Color presets → Import. Then again, Color presets → you-color-scheme-name
 4. Install a patched font, eg [Meslo](https://github.com/powerline/fonts/blob/master/Meslo%20Slashed/Meslo%20LG%20M%20Regular%20for%20Powerline.ttf)
 5. iTerm2 → Preferences → Profiles → Text → Change Font
 6. iTerm2 → Preferences → Profiles → Text → Use prebuilt Powerline glyphs
-7. ```brew install zsh```
-8. ```sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"```
-9. ```git clone https://github.com/bhilburn/powerlevel9k.git ~/.oh-my-zsh/custom/themes/powerlevel9k```
-10. ```brew install zsh-completions zsh-autosuggestions zsh-syntax-highlighting```
 11. iTerm2 → Preferences → Profiles → Text → Cursor : ✓ Vertical Bar  → Blinking cursor : ✓ ON
-12. iTerm → Preferences → Profiles → Keys → Load Preset… → Natural Text Editing 
+12. iTerm → Preferences → Profiles → Keys → KeyMapping → Load Preset… → Natural Text Editing 
 13. Update your `~/.zshrc` file accordingly to the one in this repo
 14. Update `Visual Code` settings -> *Font Family* : **Meslo LG M for Powerline**
 15. Change keyboard shortcuts in Xcode/VSCode to use cmd-k for "Open Quickly.." dialog
