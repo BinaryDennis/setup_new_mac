@@ -21,6 +21,7 @@ cd setup_new_mac
 - [Fira Code font](https://github.com/tonsky/FiraCode)
 - [Roboto Font](https://fonts.google.com/specimen/Roboto)
 - [Roboto Slab Font](https://fonts.google.com/specimen/Roboto+Slab?query=roboto+slab)
+- [Meslo](https://github.com/powerline/fonts/raw/master/Meslo%20Slashed/Meslo%20LG%20M%20Regular%20for%20Powerline.ttf)
 
 ### Developer related stufff
 - [Expressions](https://www.apptorium.com/expressions)
