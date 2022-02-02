@@ -160,7 +160,7 @@ local user_symbol="$"
 if [[ $(print -P "%#") =~ "#" ]]; then
     user_symbol = "#"
 fi
-POWERLEVEL9K_MULTILINE_LAST_PROMPT_PREFIX="%{%B%F{black}%K{054}%} $user_symbol%{%b%f%k%F{054}%} %{%f%}"
+POWERLEVEL9K_MULTILINE_LAST_PROMPT_PREFIX="%{%B%F{white}%K{054}%} $user_symbol%{%b%f%k%F{054}%} %{%f%}"
 
 # Change the git status to red when something isn't committed and pushed
 POWERLEVEL9K_VCS_MODIFIED_BACKGROUND='red'
