@@ -40,6 +40,9 @@ echo "[SYSTEM] Install z"
 git clone git@github.com:rupa/z.git ~/z 
 echo ""
 
+echo "fzf"
+$(brew --prefix)/opt/fzf/install
+echo ""
 
 echo "[SYSTEM] Copy utility scripts to ~/Scripts"
 path_src=UtilityScripts
