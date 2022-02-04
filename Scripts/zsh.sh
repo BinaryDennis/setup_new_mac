@@ -18,5 +18,6 @@ git clone https://github.com/bhilburn/powerlevel9k.git ~/.oh-my-zsh/custom/theme
 echo ""
 
 echo "[ZSH] Setting .zshrc"
-mv ~/.zshrc ~/.zshrc.backup 2>/dev/null ; cp Configs/.zshrc ~/.
+mv ~/.zshrc ~/.zshrc.backup 2>/dev/null
+cp Configs/.zshrc ~/.
 echo ""

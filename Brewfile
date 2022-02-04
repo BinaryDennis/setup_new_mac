@@ -1,10 +1,17 @@
 cask_args appdir: "/Applications"
 
+# Taps
+tap "homebrew/bundle"
+tap "homebrew/cask"
+tap "homebrew/cask-versions"
+tap "homebrew/core"
+tap "lokalise/cli-2"
+
 # System
 brew "ruby"
 brew "cocoapods"
 brew "python"
-brew "java"
+brew "openjdk"
 brew "node"
 
 # Terminal
@@ -32,7 +39,7 @@ cask "pusher"
 brew "mas"
 brew "httpie"
 brew "curl"
-brew "mc"
+brew "midnight-commander"
 brew "wget"
 brew "bfg"
 brew "vim"
@@ -44,6 +51,7 @@ brew "imagemagick"
 brew "unzip"
 brew "osx-cpu-temp"
 brew "jq"
+brew "lokalise/cli-2/lokalise2"
 cask "ngrok"
 
 # UI Apps
@@ -52,7 +60,6 @@ cask "postman"
 cask "sketch"
 cask "slack"
 cask "visual-studio-code"
-cask "1password"
 cask "brave-browser"
 cask "skitch"
 cask "proxyman"
@@ -62,3 +69,17 @@ cask "android-studio"
 
 # Misc
 cask "aerial"
+
+# Via Mac AppStore
+mas "1Password 7", id: 1333542190
+mas "DuckDuckGo Privacy Essentials", id: 1482920575
+mas "Expressions", id: 913158085
+mas "GarageBand", id: 682658836
+mas "Grammarly for Safari", id: 1462114288
+mas "iMovie", id: 408981434
+mas "Keynote", id: 409183694
+mas "Lockdown", id: 1483255076
+mas "Moom", id: 419330170
+mas "Numbers", id: 409203825
+mas "Pages", id: 409201541
+mas "Xcode", id: 497799835

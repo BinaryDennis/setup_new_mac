@@ -17,14 +17,10 @@ fi
 echo ""
 
 echo "[SYSTEM] Update gem"
-gem update --system 
+sudo gem update --system 
 echo ""
 
-echo "[SYSTEM] Install z"
-git clone git@github.com:rupa/z.git ~/z 
-echo ""
-
-echo "fzf"
+echo "fzf - must be run AFTER brew installs fzf"
 $(brew --prefix)/opt/fzf/install
 echo ""
 

@@ -51,7 +51,7 @@ ZSH_THEME="powerlevel9k/powerlevel9k"
 source ${ZSH}/oh-my-zsh.sh
 source ${HOMEBREW_PREFIX}/share/zsh-autosuggestions/zsh-autosuggestions.zsh
 source ${HOMEBREW_PREFIX}/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
-source ~/z/z.sh
+source ${HOMEBREW_PREFIX}/etc/profile.d/z.sh
 
 # fzf
 export FZF_DEFAULT_OPTS="--layout=reverse --border"
