@@ -24,18 +24,18 @@ cd setup_new_mac
 - [Meslo](https://github.com/powerline/fonts/raw/master/Meslo%20Slashed/Meslo%20LG%20M%20Regular%20for%20Powerline.ttf)
 
 ### Developer related stufff
-- [Expressions](https://www.apptorium.com/expressions)
-- [xScope](https://xscopeapp.com)
+- [Expressions](https://www.apptorium.com/expressions) `mas install 913158085`
+- [xScope](https://xscopeapp.com) `mas install 889428659`
 - [Zeplin](https://zpl.io/download-mac)
 - Network Link Conditioner from [Additional Tools for Xcode](https://developer.apple.com/download/all/?q=additional)
-- Paintcode
+- [Paintcode](https://www.paintcodeapp.com)
 
 ### Nice to have
-- [Moom](https://manytricks.com/moom/)
-- [Lockdown](https://lockdownhq.com)
+- [Moom](https://manytricks.com/moom/) `mas install 419330170`
+- [Lockdown](https://lockdownhq.com) `mas install 1483255076
 - [Audio HiJack](https://rogueamoeba.com/audiohijack/)
-- Boom 3D
-- Luminar
+- [Boom 3D](https://www.globaldelight.com/boom/) `mas install 1233048948`
+- [Luminar](https://skylum.com/luminar)
 
 ### Safari Extensions
 - Grammarly
