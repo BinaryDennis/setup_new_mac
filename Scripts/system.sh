@@ -16,14 +16,6 @@ else
 fi
 echo ""
 
-echo "[SYSTEM] Install Homebrew Cask"
-brew tap homebrew/cask
-echo ""
-
-echo "[SYSTEM] Install Brew Bundle"
-brew tap Homebrew/bundle
-echo ""
-
 echo "[SYSTEM] Update gem"
 gem update --system 
 echo ""
