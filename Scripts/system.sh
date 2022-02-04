@@ -24,16 +24,8 @@ echo "[SYSTEM] Install Brew Bundle"
 brew tap Homebrew/bundle
 echo ""
 
-echo "[SYSTEM] Install Ruby"
-brew install ruby
-echo ""
-
 echo "[SYSTEM] Update gem"
 gem update --system 
-echo ""
-
-echo "[SYSTEM] Install Node"
-brew install node
 echo ""
 
 echo "[SYSTEM] Install z"
