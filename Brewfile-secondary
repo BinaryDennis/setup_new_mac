@@ -15,7 +15,6 @@ brew "cocoapods"
 brew "python"
 brew "openjdk"
 brew "node"
-brew "aria2"
 
 # Terminal
 brew "zsh"

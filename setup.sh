@@ -18,6 +18,7 @@ validate_prerequisites() {
   fi
 }
 
+## xcodes install --latest
 
 # OPTIONS
 
