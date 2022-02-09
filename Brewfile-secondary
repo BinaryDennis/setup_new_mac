@@ -58,6 +58,7 @@ cask "ngrok"
 
 # UI Apps
 cask "alfred"
+cask "insomnia"
 cask "postman"
 cask "sketch"
 cask "slack"

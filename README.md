@@ -35,6 +35,7 @@ cd setup_new_mac
 - [Zeplin](https://zpl.io/download-mac)
 - Network Link Conditioner from [Additional Tools for Xcode](https://developer.apple.com/download/all/?q=additional)
 - [Paintcode](https://www.paintcodeapp.com)
+- [Insomnia plugin](https://github.com/georgeflug/insomnia-plugin-save-variables)
 
 ### Nice to have
 - [1 Password 7](https://1password.com) `mas install 1333542190`
