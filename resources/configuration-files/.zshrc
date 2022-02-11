@@ -146,32 +146,59 @@ alias cputemp="while :; do osx-cpu-temp; sleep 1; done"
 alias md="open -a MacDown"
 alias gg="gitui"
 
-
 ### VISUAL CUSTOMISATION ### 
+POWERLEVEL9K_MODE='compatible'
 
-# Elements options of left prompt (remove the @username context)
+# Elements options of left prompt
 POWERLEVEL9K_LEFT_PROMPT_ELEMENTS=(dir vcs)
-# Elements options of right prompt
-POWERLEVEL9K_RIGHT_PROMPT_ELEMENTS=(status root_indicator background_jobs history time battery)
 
-# Add a second prompt line for the command
-POWERLEVEL9K_PROMPT_ON_NEWLINE=true
+# Elements options of right prompt
+POWERLEVEL9K_RIGHT_PROMPT_ELEMENTS=(status root_indicator background_jobs time battery)
+
+# Test icons
+#POWERLEVEL9K_LEFT_PROMPT_ELEMENTS=(icons_test)
+
+# Shorten dir length
+POWERLEVEL9K_SHORTEN_DIR_LENGTH=3
 
 # Add a space in the first prompt 
 POWERLEVEL9K_MULTILINE_FIRST_PROMPT_PREFIX="%f"
 
-# Visual customisation of the second prompt line
-local user_symbol="$"
-if [[ $(print -P "%#") =~ "#" ]]; then
-    user_symbol = "#"
-fi
-POWERLEVEL9K_MULTILINE_LAST_PROMPT_PREFIX="%{%B%F{white}%K{054}%} $user_symbol%{%b%f%k%F{054}%} %{%f%}"
+POWERLEVEL9K_TIME_FORMAT='%D{%H:%M:%S}'
 
-# Change the git status to red when something isn't committed and pushed
-POWERLEVEL9K_VCS_MODIFIED_BACKGROUND='red'
+### Second prompt line ###
+
+# Add a second prompt line for the command
+#POWERLEVEL9K_PROMPT_ON_NEWLINE=true
+
+# Visual customisation of the second prompt line
+#local user_symbol="$"
+#if [[ $(print -P "%#") =~ "#" ]]; then
+#    user_symbol = "#"
+#fi
+#POWERLEVEL9K_MULTILINE_LAST_PROMPT_PREFIX="%{%B%F{white}%K{054}%} $user_symbol%{%b%f%k%F{054}%} %{%f%}"
 
 # Add a new line after the global prompt 
-POWERLEVEL9K_PROMPT_ADD_NEWLINE=true
+#POWERLEVEL9K_PROMPT_ADD_NEWLINE=true
+
+
+### Colors ###
+
+# For list of all available colors type this in terminal
+# for code ({000..255}) print -P -- "$code: %F{$code}This is how your text would look like%f"
+# you can reference the id number, eg 011
+
+POWERLEVEL9K_TIME_FOREGROUND='232'
+POWERLEVEL9K_TIME_BACKGROUND='226'
+
+# Change the git status to red when something isn't committed and pushed
+POWERLEVEL9K_VCS_MODIFIED_BACKGROUND='196'
+
+POWERLEVEL9K_DIR_HOME_BACKGROUND='123'
+POWERLEVEL9K_DIR_HOME_SUBFOLDER_BACKGROUND='123'
+POWERLEVEL9K_DIR_ETC_BACKGROUND='123'
+POWERLEVEL9K_DIR_DEFAULT_BACKGROUND='123'
+
 
 # Colorise the top Tabs of Iterm2 with the same color as background
 # Just change the 100/50/100 wich are the rgb values 
@@ -185,4 +212,3 @@ if [ -f '/Applications/google-cloud-sdk/path.zsh.inc' ]; then . '/Applications/g
 
 # The next line enables shell command completion for gcloud.
 if [ -f '/Applications/google-cloud-sdk/completion.zsh.inc' ]; then . '/Applications/google-cloud-sdk/completion.zsh.inc'; fi
-
