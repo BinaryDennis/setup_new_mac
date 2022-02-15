@@ -7,7 +7,7 @@
 
 
 ### Other stuff
-1. Update `Visual Code` settings → *Font Family* : **Meslo LG M for Powerline**
+1. Update `Visual Code` settings → *Font Family* : **Noto Mono for Powerline**
 2. Active Alfred's copy & paste history functionality
 3. Change Theme & Font in Xcode → `Default Dark` → `Fira Code` font
 
