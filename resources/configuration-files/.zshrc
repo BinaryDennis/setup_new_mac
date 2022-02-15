@@ -145,6 +145,7 @@ alias ddd="~/Scripts/deleteDerivedData.sh"
 alias cputemp="while :; do osx-cpu-temp; sleep 1; done"
 alias md="open -a MacDown"
 alias gg="gitui"
+alias countdown="termdown -a -c 10 -f doh -v Victoria"
 
 ### VISUAL CUSTOMISATION ### 
 POWERLEVEL9K_MODE='compatible'
