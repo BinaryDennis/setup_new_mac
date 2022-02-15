@@ -44,6 +44,7 @@ cd setup_new_mac
 - [Audio HiJack](https://rogueamoeba.com/audiohijack/)
 - [Boom 3D](https://www.globaldelight.com/boom/) `mas install 1233048948`
 - [Luminar](https://skylum.com/luminar)
+- [termdown](https://github.com/trehn/termdown) `pip3 install termdown`
 
 ### Safari Extensions
 - Grammarly `mas install 1462114288`
