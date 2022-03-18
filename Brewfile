@@ -29,6 +29,7 @@ cask "iterm2"
 # Git
 brew "git-lfs"
 brew "gitui"
+brew "lazygit"
 brew "git-flow-avh"
 cask "sourcetree"
 
