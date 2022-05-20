@@ -35,3 +35,7 @@ echo "[CONFIG] Enable AAC 320 Codec for Bluetooth headphones"
 sudo defaults write bluetoothaudiod "Enable AAC codec" -bool true
 sudo defaults write bluetoothaudiod "AAC Bitrate" 320
 echo ""
+
+echo "[CONFIG] Enable CarPlay simulator extra settings"
+defaults write com.apple.iphonesimulator CarPlayExtraOptions -bool YES
+echo ""
