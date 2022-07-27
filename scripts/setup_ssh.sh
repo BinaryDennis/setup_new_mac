@@ -30,7 +30,7 @@ mv ~/.ssh/config ~/.ssh/config.backup 2>/dev/null
 cat > ~/.ssh/config << "EOF"
 Host *
   AddKeysToAgent yes
-  IdentityFile ~/.ssh/id_ed25519.pub
+  IdentityFile ~/.ssh/id_ed25519
 EOF
 echo ""
 
