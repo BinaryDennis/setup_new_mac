@@ -15,7 +15,7 @@ What will be installed?
 Setup SSH keys and add the public signature to Github first.
 
 ```
-curl -L -O https://raw.github.com/inaryDennis/setup_new_mac/blob/master/Scripts/setup_ssh.sh
+curl -L -O https://raw.github.com/BinaryDennis/setup_new_mac/master/Scripts/setup_ssh.sh
 chmod 755 setup_ssh.sh
 ./setup_ssh.sh
 ```
