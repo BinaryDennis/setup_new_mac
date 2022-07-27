@@ -38,6 +38,7 @@ cask "aerial"
 
 # Via Mac AppStore
 mas "Apple Developer", id: 640199958
+mas "xScope", id: 889428659
 #mas "Keynote", id: 409183694
 #mas "Numbers", id: 409203825
 #mas "Pages", id: 409201541
