@@ -21,9 +21,9 @@ echo "[SYSTEM] Update gem"
 sudo gem update --system 
 echo ""
 
-echo "fzf - must be run AFTER brew installs fzf"
-$(brew --prefix)/opt/fzf/install
+echo "[DONE]"
 echo ""
+
 
 
 

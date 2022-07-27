@@ -13,7 +13,6 @@ What will be installed?
 ### How to
 
 Setup SSH keys and add the public signature to Github first.
-
 ```
 curl -L -O https://raw.github.com/BinaryDennis/setup_new_mac/master/scripts/setup_ssh.sh
 chmod 755 setup_ssh.sh
@@ -21,11 +20,18 @@ chmod 755 setup_ssh.sh
 ```
 
 
+Setup Git, Zsh and Homebrew before starting to install all Brew taps
 ```
 git clone git@github.com:BinaryDennis/setup_new_mac.git
 cd setup_new_mac/
 ./scripts/setup_git.sh
+./scripts/setup_zsh.sh
 ./scripts/install_brew.sh
+
+```
+
+Install all Brew taps
+```
 brew bundle Brewfiles/primary/Brewfile
 brew bundle Brewfiles/secondary/Brewfile
 sudo gem install Gemfile
