@@ -13,10 +13,11 @@ What will be installed?
 ### How to
 
 Setup SSH keys to Github first!
-Download this (SSH script)[Scripts/setup_ssh.sh] and execute it to create SSH key and copy the public key to the PasteBoard so you can add it to your Github account settings.
+Download this [SSH-script](Scripts/setup_ssh.sh) and execute it to create SSH key and copy the public key to the PasteBoard so you can add it to your Github account settings.
 
 ```
 ./setup_ssh.sh
+```
 
 
 ```
