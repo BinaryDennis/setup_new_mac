@@ -24,6 +24,7 @@ chmod 755 setup_ssh.sh
 ```
 git clone git@github.com:BinaryDennis/setup_new_mac.git
 cd setup_new_mac/
+./scripts/setup_git.sh
 ./scripts/install_brew.sh
 brew bundle Brewfiles/primary/Brewfile
 brew bundle Brewfiles/secondary/Brewfile
