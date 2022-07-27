@@ -8,9 +8,9 @@ Use AppStore and download and install Xcode and its command line tool
 ## Automated Installation 
 
 What will be installed? 
-1. [Brewfile primary](Brewfiles/primary/Brewfile) 
-2. [Brewfile Secondary](Brewfiles/secondary/Brewfile)
-3. [Gemfile](Gemfile)
+1. Homebrew
+2. [Brewfile primary](Brewfiles/primary/Brewfile) 
+3. [Brewfile Secondary](Brewfiles/secondary/Brewfile)
 
 
 ### How to
