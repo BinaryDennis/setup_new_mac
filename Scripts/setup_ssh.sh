@@ -1,7 +1,10 @@
 #!/bin/bash
 
 # DESCRIPTION
-# Creates an ssh key and copies it to the pasteboard
+# 1. Creates a ssh key (type ed25519)
+# 2. Adds it to the ssh-agent
+# 3. Creates a SSH config file
+# 4. Copies SSH public key to the pasteboard
 
 # EXECUTION
 
@@ -17,19 +20,23 @@ else
 fi
 echo ""
 
-echo "[SSH] Adding ssh key to ssh-agent"
+echo "[SSH] Adding SSH key to SSH-agent"
 eval "$(ssh-agent -s)"
-ssh-add ~/.ssh/id_rsa
+ssh-add ~/.ssh/id_ed25519
 echo ""
 
-echo "[SSH] Copying ssh key to pasteboard"
-pbcopy < ~/.ssh/id_rsa.pub
-
-
-echo "[SSH] Setting config"
+echo "[SSH] Creating SSH config file"
 mv ~/.ssh/config ~/.ssh/config.backup 2>/dev/null
-cp Configs/config ~/.ssh/.
+cat > ~/.ssh/config << "EOF"
+Host *
+  AddKeysToAgent yes
+  IdentityFile ~/.ssh/id_ed25519.pub
+EOF
 echo ""
+
+echo "[SSH] Copying SSH key to pasteboard"
+pbcopy < ~/.ssh/id_ed25519.pub
+
 
 echo "[SSH] Done"
-echo ""
+echo "Paste to Github account settings under SSH keys"
