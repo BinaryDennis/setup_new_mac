@@ -73,7 +73,7 @@ Optionally download and install these things manually
 [Pimp your Terminal](readmes/terminal.md)
 
 ### SSH
-[SSH info](readme/ssh.md)
+[SSH info](readmes/ssh.md)
 
 ### Misc
-[Misc info](readme/misc.md)
+[Misc info](readmes/misc.md)
