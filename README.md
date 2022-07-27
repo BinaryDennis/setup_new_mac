@@ -2,6 +2,9 @@
 
 When u get a new MacBook - follow these steps to save time installing all things you need
 
+## Install Xcode first
+Use AppStore and download and install Xcode and its command line tool
+
 ## Automated Installation 
 
 What will be installed? 
@@ -32,9 +35,11 @@ cd setup_new_mac/
 
 Install all Brew taps
 ```
-brew bundle Brewfiles/primary/Brewfile
-brew bundle Brewfiles/secondary/Brewfile
-sudo gem install Gemfile
+brew bundle --file brewfiles/primary/Brewfile
+$(brew --prefix)/opt/fzf/install
+
+brew bundle --file brewfiles/secondary/Brewfile
+
 ```
 
 ## Manuall Installtion

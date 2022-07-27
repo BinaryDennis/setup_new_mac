@@ -8,8 +8,9 @@ tap "homebrew/cask-versions"
 tap "homebrew/core"
 
 # System
-brew "robotsandpencils/made/xcodes"
+cask "robotsandpencils/made/xcodes"
 brew "cocoapods"
+brew "fastlane"
 
 # Terminal
 brew "zsh"
