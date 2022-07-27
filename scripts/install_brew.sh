@@ -2,8 +2,6 @@
 
 # DESCRIPTION
 # 1. Installs HomeBrew 
-# 2. updates Gem
-# 3. Installs fzf
 
 
 if ! command -v brew > /dev/null; then
@@ -15,10 +13,6 @@ else
     echo "[SYSTEM] Update Homebrew"
     brew update
 fi
-echo ""
-
-echo "[SYSTEM] Update gem"
-sudo gem update --system 
 echo ""
 
 echo "[DONE]"
