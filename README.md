@@ -2,25 +2,25 @@
 
 When u get a new MacBook - follow these steps to save time installing all things you need
 
-What will be installed? See the [Brewfile](Brewfile) and see the [Gemfile](Gemfile)
+## Automated Installation 
 
-## Installation - How to use it
+What will be installed? 
+1. [Brewfile primary](Brewfiles/primary/Brewfile) 
+2. [Brewfile Secondary](Brewfiles/secondary/Brewfile)
+3. [Gemfile](Gemfile)
 
-1. Download this repo
 
+### How to
 ```
 git clone git@github.com:BinaryDennis/setup_new_mac.git
-
+cd setup_new_mac/
+./scripts/install_homebrew.sh
+brew bundle Brewfiles/primary/Brewfile
+brew bundle Brewfiles/secondary/Brewfile
+sudo gem install Gemfile
 ```
 
-2. Run the setup script to install automated stuff
-
-```
-cd setup_new_mac 
-./setup.sh
-```
-
-2. Install the following manually
+## Manuall Installtion
 
 ### Fonts
 - [SF Symbols](https://developer.apple.com/sf-symbols/)
