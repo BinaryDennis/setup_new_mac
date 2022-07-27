@@ -8,7 +8,7 @@ tap "homebrew/cask-versions"
 tap "homebrew/core"
 
 # System
-cask "robotsandpencils/made/xcodes"
+brew "robotsandpencils/made/xcodes"
 brew "cocoapods"
 brew "fastlane"
 
@@ -62,4 +62,4 @@ mas "Expressions", id: 913158085
 mas "Grammarly for Safari", id: 1462114288
 mas "Lockdown", id: 1483255076
 mas "Moom", id: 419330170
-mas "Xcode", id: 497799835
+#mas "Xcode", id: 497799835
