@@ -87,8 +87,8 @@ export PATH="$PATH:~/Scripts"
 export PATH="$PATH:/Applications/Visual\ Studio\ Code.app/Contents/Resources/app/bin"
 
 ## Android 
-#export ANDROID_HOME="$HOME/Library/Android/sdk"
-#export PATH="$PATH:$ANDROID_HOME"
+export ANDROID_HOME="$HOME/Library/Android/sdk"
+export PATH="$PATH:$ANDROID_HOME"
 
 ## Flutter
 export FLUTTER_ROOT="/Applications/flutter/bin"
@@ -134,19 +134,18 @@ alias ..="cd .."
 alias la="ls -la"
 alias c="clear"
 alias v="vim"
-alias cdcloud="cd ~/Library/Mobile\ Documents/com~apple~CloudDocs/myCloud"
 alias xcode-clean="rm -fr ~/Library/Developer/Xcode/DerivedData/"
 alias rgrep="grep -L -r --include \"*.storyboard\" --exclude \"*.txt\" \"Utility\" ."
 alias resetsims="xcrun simctl erase all"
 alias hashvalue="openssl sha -sha256"
-alias git-clean="git gc; git fetch -p && for branch in $(git for-each-ref --format '%(refname) %(upstream:track)' refs/heads | awk '$2 == "[gone]" {sub("refs/heads/", "", $1); print $1}'); do git branch -D $branch; done"
-alias git-cb="git rev-parse --abbrev-ref HEAD | pbcopy"
-alias ddd="~/Scripts/deleteDerivedData.sh"
 alias cputemp="while :; do osx-cpu-temp; sleep 1; done"
 alias md="open -a MacDown"
 alias gg="gitui"
 alias lg="lazygit"
 alias countdown="termdown -a -c 10 -f doh -v Victoria"
+alias git-clean="git gc; git fetch -p && for branch in $(git for-each-ref --format '%(refname) %(upstream:track)' refs/heads | awk '$2 == "[gone]" {sub("refs/heads/", "", $1); print $1}'); do git branch -D $branch; done"
+alias git-cb="git rev-parse --abbrev-ref HEAD | pbcopy"
+
 
 ### VISUAL CUSTOMISATION ### 
 POWERLEVEL9K_MODE='compatible'

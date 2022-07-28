@@ -34,9 +34,10 @@ Host *
 EOF
 echo ""
 
-echo "[SSH] Copying SSH key to pasteboard"
+echo "[SSH] Copying public SSH key fingerprint to PasteBoard"
 pbcopy < ~/.ssh/id_ed25519.pub
 
 
 echo "[SSH] Done"
-echo "Paste to Github account settings under SSH keys"
+echo "[IMPORTANT] - Paste your public SSH key fingerprint to Github"
+echo ""

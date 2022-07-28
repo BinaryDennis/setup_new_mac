@@ -16,8 +16,9 @@ fi
 echo ""
 
 echo "[DONE]"
+echo "[IMPORTANT] - Execute this in your terminal:"
+echo 'eval "$(/opt/homebrew/bin/brew shellenv)"'
 echo ""
-
 
 
 

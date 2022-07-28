@@ -4,76 +4,91 @@ When u get a new MacBook - follow these steps to save time installing all things
 
 What will be installed? 
 1. Homebrew
-2. [Brewfile primary](Brewfiles/primary/Brewfile) 
-3. [Brewfile Secondary](Brewfiles/secondary/Brewfile)
+2. [List of essential Brew taps](Brewfiles/primary/Brewfile) 
+3. [List of nice-to-have Brew taps](Brewfiles/secondary/Brewfile)
 
 
 ## Pre-requisite 
+1. Download and install _Xcode_
+2. Install _Command Line Tools_ (`sudo xcode-select --install`)
 
-### Xcode
-Use AppStore and download and install Xcode and its command line tool
+## Installation
 
-
-### SSH 
-Setup SSH keys and add the public signature to Github first.
+### Download this repo
+Download this repo and go into the unzipped directory
 ```
-curl -L -O https://raw.github.com/BinaryDennis/setup_new_mac/master/scripts/setup_ssh.sh
-chmod 755 setup_ssh.sh
-./setup_ssh.sh
+curl -L -O https://github.com/BinaryDennis/setup_new_mac/archive/refs/heads/master.zip
+unzip master.zip
+cd setup_new_mac-master-master/
 ```
 
-### Git, Zsh and HomeBrew
-Setup Git, Zsh and Homebrew before starting to install all Brew taps
+### Install Homebrew
 ```
-git clone git@github.com:BinaryDennis/setup_new_mac.git
-cd setup_new_mac/
-./scripts/setup_git.sh
-./scripts/setup_zsh.sh
 ./scripts/install_brew.sh
-
 ```
 
-## Install all Brew taps
+### Install essential Brew taps
 ```
 brew bundle --file brewfiles/primary/Brewfile
 $(brew --prefix)/opt/fzf/install
-
-brew bundle --file brewfiles/secondary/Brewfile
-
 ```
+
+### Install nice-to-have Brew taps
+```
+brew bundle --file brewfiles/secondary/Brewfile
+```
+
+### Setup Zshrc
+```
+./scripts/setup_zsh.sh
+```
+
+### Setup Mac OS defaults
+```
+./scripts/setup_osx.sh
+```
+
+### Setup SSH 
+```
+./scripts/setup_ssh.sh
+```
+
+### Setup Git
+```
+./scripts/setup_git.sh
+```
+
+### Setup NPM
+```
+./scripts/setup_npm.sh
+```
+
+### Install Fonts
+In the `resources/fonts` directory you will find 3 cool fonts to install, mark them all and open them in _Font Book_ app on Mac OS to add them to your system.
+Note that the font `Fira Code` is installed as part of essential Brew taps.
+
+- Roboto
+- Roboto Slab
+- Meslo
+  
 
 ## Post Installation 
 Optionally download and install these things manually
-
-### Fonts
 - [SF Symbols](https://developer.apple.com/sf-symbols/)
-- [Fira Code font](https://github.com/tonsky/FiraCode)
-- [Roboto Font](https://fonts.google.com/specimen/Roboto)
-- [Roboto Slab Font](https://fonts.google.com/specimen/Roboto+Slab?query=roboto+slab)
-- [Meslo](https://github.com/powerline/fonts/raw/master/Meslo%20Slashed/Meslo%20LG%20M%20Regular%20for%20Powerline.ttf)
-
-### Developer related stufff
 - [Zeplin](https://zpl.io/download-mac)
 - Network Link Conditioner from [Additional Tools for Xcode](https://developer.apple.com/download/all/?q=additional)
 - [Paintcode](https://www.paintcodeapp.com)
-- [Insomnia plugin](https://github.com/georgeflug/insomnia-plugin-save-variables)
-
-### Nice to have
 - [Audio HiJack](https://rogueamoeba.com/audiohijack/)
-- [Luminar](https://skylum.com/luminar)
 - [termdown](https://github.com/trehn/termdown) `pip3 install termdown`
 
 
 ## Post Configuration
 
-### Shell
-[Pimp your shell](readmes/shell.md)
+### Terminal Info
+[Terminal Info](readmes/terminal.md)
 
-### Terminal
-[Pimp your Terminal](readmes/terminal.md)
-
-### SSH
+### SSH Info
 [SSH info](readmes/ssh.md)
 
-### Misc
+### Misc Info
 [Misc info](readmes/misc.md)
