@@ -58,10 +58,25 @@ brew bundle --file brewfiles/secondary/Brewfile
 ./scripts/setup_git.sh
 ```
 
-### Setup NPM
+### Install NPM
 ```
-./scripts/setup_npm.sh
+./scripts/install_npm.sh
 ```
+
+
+### Install Flutter
+Download latest Flutter binary for you machine silicon type here:
+[Flutter](https://docs.flutter.dev/get-started/install/macos)
+
+Example, downloading Flutter version 3.0.5 for Apple Silicon
+```
+curl -O -L https://storage.googleapis.com/flutter_infra_release/releases/stable/macos/flutter_macos_arm64_3.0.5-stable.zip
+cd ~/development
+unzip ~/Downloads/flutter_macos_arm64_3.0.5-stable.zip
+mv flutter /Applications/flutter
+flutter doctor
+```
+
 
 ### Install Fonts
 In the `resources/fonts` directory you will find 3 cool fonts to install, mark them all and open them in _Font Book_ app on Mac OS to add them to your system.
