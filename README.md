@@ -4,8 +4,8 @@ When u get a new MacBook - follow these steps to save time installing all things
 
 What will be installed? 
 1. Homebrew
-2. [List of essential Brew taps](Brewfiles/primary/Brewfile) 
-3. [List of nice-to-have Brew taps](Brewfiles/secondary/Brewfile)
+2. [List of essential Brew taps](brewfiles/primary/Brewfile) 
+3. [List of nice-to-have Brew taps](brewfiles/secondary/Brewfile)
 
 
 ## Pre-requisite 
@@ -43,7 +43,7 @@ brew bundle --file brewfiles/secondary/Brewfile
 ./scripts/setup_zsh.sh
 ```
 
-### Setup Mac OS defaults
+### Setup Mac OS defaults & hostname
 ```
 ./scripts/setup_osx.sh
 ```
