@@ -45,6 +45,7 @@ brew "cloc"
 brew "ffmpeg"
 brew "unzip"
 brew "jq"
+brew "aria2"
 cask "ngrok"
 
 # Fonts
