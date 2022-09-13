@@ -22,7 +22,7 @@ echo ""
 
 echo "[SSH] Adding SSH key to SSH-agent"
 eval "$(ssh-agent -s)"
-ssh-add ~/.ssh/id_ed25519
+ssh-add -K ~/.ssh/id_ed25519
 echo ""
 
 echo "[SSH] Creating SSH config file"
@@ -30,6 +30,7 @@ mv ~/.ssh/config ~/.ssh/config.backup 2>/dev/null
 cat > ~/.ssh/config << "EOF"
 Host *
   AddKeysToAgent yes
+  UseKeychain yes
   IdentityFile ~/.ssh/id_ed25519
 EOF
 echo ""
