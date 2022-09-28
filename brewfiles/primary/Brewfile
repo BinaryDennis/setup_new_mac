@@ -12,6 +12,8 @@ tap "homebrew/cask-fonts"
 brew "robotsandpencils/made/xcodes"
 brew "cocoapods"
 brew "fastlane"
+brew "gpg"
+brew "pinentry-mac"
 
 # Terminal
 brew "zsh"

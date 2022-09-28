@@ -100,10 +100,14 @@ Optionally download and install these things manually
 ## Post Configuration
 
 ### Terminal Info
-[Terminal Info](readmes/terminal.md)
+[Terminal info](readmes/terminal.md)
 
 ### SSH Info
 [SSH info](readmes/ssh.md)
 
+### GPG Info
+[GPG info](readmes/gpg.md)
+
 ### Misc Info
 [Misc info](readmes/misc.md)
+

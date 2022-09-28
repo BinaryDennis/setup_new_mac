@@ -58,3 +58,7 @@
 	tool = vscode
 [difftool "vscode"]
 	cmd = code -n --wait --diff $LOCAL $REMOTE
+[gpg]
+        program = /opt/homebrew/bin/gpg
+[commit]
+        gpgsign = true
