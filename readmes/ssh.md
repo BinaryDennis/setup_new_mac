@@ -1,5 +1,17 @@
 ## SSH
 
+
+### Sign your Github commits with SSH
+[See more](https://calebhearth.com/sign-git-with-ssh)
+
+```
+git config --global commit.gpgsign true
+git config --global gpg.format ssh
+ssh-add -L
+git config --global user.signingkey "ssh-ed25519 <your key id>"
+git commit --allow-empty --message="Testing SSH signing"
+```
+
 ### ssh-keygen
 ```
 ssh-keygen -t ed25519 -C "your_email@example.com" 
@@ -10,10 +22,6 @@ ssh-add -K ~/.ssh/id_ed25519
 ### ssh config
 
 Create the file `~/.ssh/config` and add the following to it:
-
-If you chose not to add a passphrase to your key, you should omit the UseKeychain line.
-If you see a Bad configuration option: usekeychain error, add an additional line to the configuration's' Host * section.
-```IgnoreUnknown UseKeychain```
 
 ```
 Host *

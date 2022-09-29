@@ -40,5 +40,6 @@ pbcopy < ~/.ssh/id_ed25519.pub
 
 
 echo "[SSH] Done"
-echo "[IMPORTANT] - Paste your public SSH key fingerprint to Github"
+echo "[IMPORTANT 1] - Paste your public SSH key fingerprint to Github as new Authentication Key"
+echo "[IMPORTANT 2] - Paste your public SSH key fingerprint to Github as new Signing Key"
 echo ""
