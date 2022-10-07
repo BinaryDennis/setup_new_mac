@@ -36,5 +36,5 @@ Test a specific key: `ssh -vT git@github.com`
 
 See list of all added keys in the ssh-agent:  `ssh-add -l`
 
-Add all keys to the ssh-agent: `ssh-add -A`
+Add all keys to the ssh-agent: `ssh-add --apple-use-keychain`
 
