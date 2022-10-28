@@ -89,6 +89,7 @@ Note that the font `Fira Code` is installed as part of essential Brew taps.
 
 ## Post Installation 
 Optionally download and install these things manually
+- [Sensei](https://cindori.com/sensei)
 - [SF Symbols](https://developer.apple.com/sf-symbols/)
 - [Zeplin](https://zpl.io/download-mac)
 - Network Link Conditioner from [Additional Tools for Xcode](https://developer.apple.com/download/all/?q=additional)
