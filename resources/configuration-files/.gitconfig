@@ -24,6 +24,7 @@
 	logdev = log --pretty=format:'%C(cyan)%h %C(yellow)%ad %C(bold red)%d %C(reset)%s %C(dim green)[%an]' --abbrev-commit --decorate --date=relative --no-merges develop..
 
 	showdev = show --no-merges develop..
+	showmaster = show --no-merges master..
 	
 	branch-touched = for-each-ref --sort=-committerdate --format="%(committerdate:relative)%09%(refname:short)" refs/heads
 
@@ -47,7 +48,8 @@
 	fetchall = fetch --all --tags
 	pruneremote = remote update origin --prune
 	prunelocal = fetch --prune
-	pruneorigin = !git branch -q --merged origin/develop | grep -v master | grep -v develop | grep -v testflight | xargs git branch -d
+	pruneorigmaster = !git branch -q --merged origin/master | grep -v master | grep -v develop | grep -v testflight | xargs git branch -d
+	pruneorigdev = !git branch -q --merged origin/develop | grep -v master | grep -v develop | grep -v testflight | xargs git branch -d
 
 [merge]
 	tool = vscode
