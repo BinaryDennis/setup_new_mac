@@ -1,7 +1,7 @@
 ## SSH
 
-
 ### Sign your Github commits with SSH
+
 [See more](https://calebhearth.com/sign-git-with-ssh)
 
 ```
@@ -13,10 +13,11 @@ git commit --allow-empty --message="Testing SSH signing"
 ```
 
 ### ssh-keygen
+
 ```
-ssh-keygen -t ed25519 -C "your_email@example.com" 
+ssh-keygen -t ed25519 -C "your_email@example.com"
 eval "$(ssh-agent -s)"
-ssh-add -K ~/.ssh/id_ed25519
+ssh-add --apple-use-keychain --apple-load-keychain ~/.ssh/id_ed25519
 ```
 
 ### ssh config
@@ -34,7 +35,6 @@ Host *
 
 Test a specific key: `ssh -vT git@github.com`
 
-See list of all added keys in the ssh-agent:  `ssh-add -l`
+See list of all added keys in the ssh-agent: `ssh-add -l`
 
-Add all keys to the ssh-agent: `ssh-add --apple-use-keychain`
-
+Add all keys to the ssh-agent: `ssh-add --apple-use-keychain --apple-load-keychain`

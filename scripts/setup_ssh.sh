@@ -22,7 +22,7 @@ echo ""
 
 echo "[SSH] Adding SSH key to SSH-agent"
 eval "$(ssh-agent -s)"
-ssh-add --apple-use-keychain ~/.ssh/id_ed25519
+ssh-add --apple-use-keychain --apple-load-keychain ~/.ssh/id_ed25519
 echo ""
 
 echo "[SSH] Creating SSH config file"
