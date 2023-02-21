@@ -7,6 +7,7 @@ tap "homebrew/cask"
 tap "homebrew/cask-versions"
 tap "homebrew/core"
 tap "homebrew/cask-fonts"
+tap "robotsandpencils/made"
 
 # System
 brew "robotsandpencils/made/xcodes"
@@ -49,6 +50,7 @@ brew "unzip"
 brew "jq"
 brew "aria2"
 cask "ngrok"
+brew "node"
 
 # Fonts
 cask "font-fira-code"
@@ -60,16 +62,15 @@ cask "slack"
 cask "visual-studio-code"
 cask "proxyman"
 cask "macdown"
+cask "arc"
 
 
 # Via Mac AppStore
 mas "1Password 7", id: 1333542190
 mas "Noir – Dark Mode for Safari", id: 1592917505
 mas "1Blocker - Ad Blocker", id: 1365531024
-mas "DuckDuckGo Privacy Essentials", id: 1482920575
 mas "Expressions", id: 913158085
 mas "Grammarly for Safari", id: 1462114288
-mas "Lockdown", id: 1483255076
 mas "Moom", id: 419330170
 mas "Paste - Clipboard Manager", id: 967805235
 mas "NetWorker Lite", id: 1228738830

@@ -8,7 +8,6 @@ tap "lokalise/cli-2"
 brew "ruby"
 brew "python"
 brew "openjdk"
-brew "node"
 
 # Terminal
 
@@ -32,6 +31,7 @@ cask "brave-browser"
 cask "skitch"
 cask "vlc"
 cask "android-studio"
+cask "intellij-idea-ce"
 
 # Misc
 cask "aerial"
