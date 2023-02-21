@@ -109,13 +109,13 @@ Note that the font `Fira Code` is installed as part of essential Brew taps.
 
 Optionally download and install these things manually
 
+- [Buzz](https://www.joinbuzz.com)
 - [Sensei](https://cindori.com/sensei)
 - [SF Symbols](https://developer.apple.com/sf-symbols/)
 - [Zeplin](https://zpl.io/download-mac)
-- Network Link Conditioner from [Additional Tools for Xcode](https://developer.apple.com/download/all/?q=additional)
+- [Network Link Conditioner](https://developer.apple.com/download/all/?q=additional)
 - [Paintcode](https://www.paintcodeapp.com)
 - [Audio HiJack](https://rogueamoeba.com/audiohijack/)
-- [termdown](https://github.com/trehn/termdown) `pip3 install termdown`
 
 ## Post Configuration
 

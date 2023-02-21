@@ -11,6 +11,9 @@ brew "openjdk"
 
 # Terminal
 
+# Docker
+cask "docker"
+
 # Git
 brew "git-flow-avh"
 
