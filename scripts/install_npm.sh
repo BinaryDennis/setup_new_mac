@@ -33,5 +33,9 @@ echo "[NPM] Installing Swiff"
 sudo npm install -g swiff
 echo ""
 
+echo "[NPM] Installing git-mob"
+sudo npm install -g git-mob
+echo ""
+
 echo "[NPM] Done"
 echo ""

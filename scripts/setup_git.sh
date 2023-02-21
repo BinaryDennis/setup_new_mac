@@ -17,5 +17,5 @@ echo ""
 
 echo "[DONE]"
 echo "[IMPORTANT 1] - Update the user.name and user.email in ~/.gitconfig"
-echo "[IMPORTANT 2] - Update user.signingkey property with your new ssh key id in ~/.gitconfig`
+echo "[IMPORTANT 2] - Update user.signingkey property with your new ssh key id in ~/.gitconfig"
 echo ""
