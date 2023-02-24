@@ -7,10 +7,6 @@ echo "[NPM] Installing NPM"
 brew install npm
 echo ""
 
-echo "[NPM] Installing Node Version Manager"
-sudo npm install -g nvm
-echo ""
-
 echo "[NPM] Installing Yarn"
 sudo npm install -g yarn
 echo ""
@@ -35,6 +31,11 @@ echo ""
 
 echo "[NPM] Installing git-mob"
 sudo npm install -g git-mob
+echo ""
+
+echo "[NPM] Installing Node Version Manager v0.39.3"
+# https://github.com/nvm-sh/nvm/blob/master/README.md
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.3/install.sh | bash
 echo ""
 
 echo "[NPM] Done"

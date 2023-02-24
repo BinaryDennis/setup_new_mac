@@ -22,7 +22,8 @@
 	logn =  log --pretty=format:'%C(cyan)%h %C(yellow)%ad %C(bold red)%d %C(reset)%s %C(green)[%an]' --abbrev-commit --decorate --date=relative --numstat
 	logh =  log --pretty=format:'%C(cyan)%h %C(yellow)%ad %C(bold red)%d %C(reset)%s %C(green)[%an]' --abbrev-commit --decorate --date=relative --graph --full-history --all
 	logdev = log --pretty=format:'%C(cyan)%h %C(yellow)%ad %C(bold red)%d %C(reset)%s %C(dim green)[%an]' --abbrev-commit --decorate --date=relative --no-merges develop..
-
+	logdev = log --pretty=format:'%C(cyan)%h %C(yellow)%ad %C(bold red)%d %C(reset)%s %C(dim green)[%an]' --abbrev-commit --decorate --date=relative --no-merges master..
+	
 	showdev = show --no-merges develop..
 	showmaster = show --no-merges master..
 	
