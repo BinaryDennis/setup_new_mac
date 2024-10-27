@@ -10,7 +10,7 @@ tap "homebrew/cask-fonts"
 tap "robotsandpencils/made"
 
 # System
-brew "robotsandpencils/made/xcodes"
+brew "xcodesorg/made/xcodes"
 brew "cocoapods"
 brew "fastlane"
 brew "gpg"
