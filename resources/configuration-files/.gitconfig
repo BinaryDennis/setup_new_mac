@@ -15,6 +15,7 @@
 
 [push]
 	default = current
+	useForceIfIncludes = true
 
 [alias]
 	logs =  log --pretty=format:'%C(cyan)%h %C(yellow)%ad %C(bold red)%d %C(reset)%s %C(dim green)[%an]' --abbrev-commit --decorate --date=relative
@@ -51,6 +52,8 @@
 	prunelocal = fetch --prune
 	pruneorigmaster = !git branch -q --merged origin/master | grep -v master | grep -v develop | grep -v testflight | xargs git branch -d
 	pruneorigdev = !git branch -q --merged origin/develop | grep -v master | grep -v develop | grep -v testflight | xargs git branch -d
+
+	push-with-lease = push --force-with-lease --force-if-includes
 
 [merge]
 	tool = vscode
