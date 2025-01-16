@@ -1,24 +1,20 @@
 cask_args appdir: "/Applications"
 
-
 # Taps
 tap "homebrew/bundle"
-tap "homebrew/cask"
-tap "homebrew/cask-versions"
-tap "homebrew/core"
-tap "homebrew/cask-fonts"
-tap "robotsandpencils/made"
 
 # System
-brew "xcodesorg/made/xcodes"
-brew "cocoapods"
 brew "fastlane"
 brew "gpg"
-brew "pinentry-mac"
+
+# iOS/Swift
+cask "xcodes"
+brew "swiftgen"
+brew "swiftlint"
+cask "pusher"
 
 # Terminal
 brew "zsh"
-brew "gh"
 brew "z"
 brew "zsh-autosuggestions"
 brew "zsh-completions"
@@ -27,15 +23,10 @@ brew "fzf"
 cask "iterm2"
 
 # Git
+brew "gh"
 brew "git-lfs"
 brew "gitui"
 brew "lazygit"
-cask "sourcetree"
-
-# iOS/Swift
-brew "swiftgen"
-brew "swiftlint"
-cask "pusher"
 
 # Terminal Tools
 brew "mas"
@@ -59,12 +50,13 @@ cask "font-fira-code"
 # UI Apps
 cask "alfred"
 cask "postman"
+cask "apidog"
 cask "slack"
 cask "visual-studio-code"
 cask "proxyman"
 cask "macdown"
-cask "arc"
-
+brew "firefox"
+brew "notion"
 
 # Via Mac AppStore
 mas "1Password 7", id: 1333542190
@@ -73,6 +65,5 @@ mas "1Blocker - Ad Blocker", id: 1365531024
 mas "Expressions", id: 913158085
 mas "Grammarly for Safari", id: 1462114288
 mas "Moom", id: 419330170
-mas "Paste - Clipboard Manager", id: 967805235
 mas "NetWorker Lite", id: 1228738830
 #mas "Xcode", id: 497799835
