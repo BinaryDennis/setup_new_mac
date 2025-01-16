@@ -11,6 +11,7 @@ brew "gpg"
 cask "xcodes"
 brew "swiftgen"
 brew "swiftlint"
+brew "xcbeautify"
 cask "pusher"
 
 # Terminal
