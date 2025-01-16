@@ -98,6 +98,12 @@ Optionally download and install these things manually
 - [SF Symbols](https://developer.apple.com/sf-symbols/)
 - [Network Link Conditioner](https://developer.apple.com/download/all/?q=additional)
 - [Audio HiJack](https://rogueamoeba.com/audiohijack/)
+- [DiskDrill](https://www.cleverfiles.com/download.html)
+- [Bezel](https://nonstrict.eu/bezel/thank-you-for-trying-bezel?utm_source=bezel&utm_medium=website&utm_content=hero)
+- [Perplexity]
+- [ChatGPT]
+- [Github CoPilot for Xcode]
+- [NordVPN]
 
 ## Post Configuration
 
