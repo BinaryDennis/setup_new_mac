@@ -55,8 +55,8 @@ cask "apidog"
 cask "slack"
 cask "visual-studio-code"
 cask "proxyman"
-cask "macdown"
 brew "firefox"
+cask "discord"
 brew "notion"
 
 # Via Mac AppStore
