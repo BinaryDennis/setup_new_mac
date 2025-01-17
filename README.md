@@ -100,10 +100,8 @@ Optionally download and install these things manually
 - [Audio HiJack](https://rogueamoeba.com/audiohijack/)
 - [DiskDrill](https://www.cleverfiles.com/download.html)
 - [Bezel](https://nonstrict.eu/bezel/thank-you-for-trying-bezel?utm_source=bezel&utm_medium=website&utm_content=hero)
-- [Perplexity]
-- [ChatGPT]
-- [Github CoPilot for Xcode]
-- [NordVPN]
+- [NordVPN](https://downloads.nordcdn.com/apps/macos/generic/NordVPN-OpenVPN/latest/NordVPN.pkg)
+- [Github CoPilot for Xcode](https://docs.github.com/en/copilot/managing-copilot/configure-personal-settings/installing-the-github-copilot-extension-in-your-environment)
 
 ## Post Configuration
 
