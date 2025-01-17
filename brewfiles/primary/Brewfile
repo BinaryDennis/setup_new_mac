@@ -56,16 +56,3 @@ cask "slack"
 cask "visual-studio-code"
 cask "proxyman"
 brew "firefox"
-cask "discord"
-brew "notion"
-
-# Via Mac AppStore
-mas "1Password 7", id: 1333542190
-mas "Noir – Dark Mode for Safari", id: 1592917505
-mas "1Blocker - Ad Blocker", id: 1365531024
-mas "Expressions", id: 913158085
-mas "Grammarly for Safari", id: 1462114288
-mas "Moom", id: 419330170
-mas "NetWorker Lite", id: 1228738830
-mas "Perplexity", id:6714467650
-#mas "Xcode", id: 497799835
