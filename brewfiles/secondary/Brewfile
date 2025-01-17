@@ -18,6 +18,7 @@ brew "yq"
 cask "sketch"
 cask "skitch"
 cask "vlc"
+cask "pycharm"
 cask "android-studio"
 cask "intellij-idea-ce"
 
