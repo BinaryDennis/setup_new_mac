@@ -8,6 +8,16 @@ What will be installed?
 2. [List of essential Brew taps](brewfiles/primary/Brewfile)
 3. [List of nice-to-have Brew taps](brewfiles/secondary/Brewfile)
 
+## Before wiping your old mac
+
+Take a backup of the following 
+1. ~/.netrc
+2. ~/.ssh
+3. ~/.zsh_history
+4. ~/.zsh_sessions
+5. Git repos that you have stashes saved locally
+6. Anything important in ~/Downloads
+
 ## Pre-requisite
 
 1. Download and install _Xcode_
