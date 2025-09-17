@@ -145,6 +145,7 @@ alias lg="lazygit"
 alias countdown="termdown -a -c 10 -f doh -v Victoria"
 alias git-clean="git gc; git fetch -p && for branch in $(git for-each-ref --format '%(refname) %(upstream:track)' refs/heads | awk '$2 == "[gone]" {sub("refs/heads/", "", $1); print $1}'); do git branch -D $branch; done"
 alias git-cb="git rev-parse --abbrev-ref HEAD | pbcopy"
+alias clearspm="rm -fr ~/Library/Caches/org.swift.swiftpm"
 
 
 ### VISUAL CUSTOMISATION ### 
