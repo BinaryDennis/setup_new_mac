@@ -1,6 +1,7 @@
 [core]
 	excludesfile = $HOME/.gitignore_global
 	editor = /usr/bin/vim
+	autocrlf = input
 
 [log]
 	decorate = true
