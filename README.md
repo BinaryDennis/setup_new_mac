@@ -20,8 +20,7 @@ Take a backup of the following
 
 ## Pre-requisite
 
-1. Download and install _Xcode_
-2. Install _Command Line Tools_ (`sudo xcode-select --install`)
+1. Download and install  [Command Line Tools](https://developer.apple.com/download/all/?q=command%20line)
 
 ## Installation
 
@@ -31,7 +30,11 @@ Download this repo and go into the unzipped directory
 
 ```
 curl -L -O https://github.com/BinaryDennis/setup_new_mac/archive/refs/heads/master.zip
+```
+```
 unzip master.zip
+```
+```
 cd setup_new_mac-master/
 ```
 
