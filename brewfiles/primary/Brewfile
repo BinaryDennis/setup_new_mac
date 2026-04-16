@@ -26,6 +26,7 @@ brew "gitui"
 brew "lazygit"
 
 # Terminal Tools
+brew "copilot-cli"
 brew "mas"
 brew "httpie"
 brew "curl"
