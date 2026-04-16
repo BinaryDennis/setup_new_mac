@@ -1,14 +1,10 @@
 cask_args appdir: "/Applications"
 
-# Taps
-tap "homebrew/bundle"
-
 # System
-brew "fastlane"
 brew "gpg"
 
 # iOS/Swift
-cask "xcodes"
+cask "xcodes-app"
 brew "swiftgen"
 brew "swiftlint"
 brew "xcbeautify"
@@ -49,10 +45,11 @@ brew "node"
 cask "font-fira-code"
 
 # UI Apps
+brew "notion"
 cask "alfred"
 cask "postman"
 cask "apidog"
 cask "slack"
 cask "visual-studio-code"
 cask "proxyman"
-brew "firefox"
+cask "firefox"
