@@ -7,9 +7,9 @@
 	decorate = true
 
 [user]
-	name = Dennis Charmington
-	email = dennis@charmington.se
-	signingkey = ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIAfibH1Gn5XnMvjM3ZDCJuFHHcbWfXmv4+ib64WNeZZU
+	name = <your name>
+	email = <your email>
+	signingkey = ~/.ssh/id_ed25519.pub
 	
 [color]
 	ui = true
