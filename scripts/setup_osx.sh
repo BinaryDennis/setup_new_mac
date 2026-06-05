@@ -19,8 +19,12 @@ sudo /usr/sbin/DevToolsSecurity -enable
 echo ""
 
 echo "[CONFIG] Set specific path for screenshots"
+defaults write com.apple.screencapture "show-thumbnail" -bool false
 mkdir -p ~/Desktop/screenshots/
 defaults write com.apple.screencapture location ~/Desktop/screenshots/
+defaults write com.apple.iphonesimulator "ScreenShotSaveLocation" -string ~/Desktop/screenshots/
+killall SystemUIServer
+killall Simulator
 echo ""
 
 echo "[CONFIG] Enable AAC codec as default"
